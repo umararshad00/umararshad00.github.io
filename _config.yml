@@ -18,13 +18,13 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  - {file: "index.md", title: "home"}
+  - {file: "blog.md", title: "blog"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:umararshad00@users.noreply.github.com"}
+  - {title: Github, icon: github, url: "https://github.com/umararshad00"}
+  - {title: Subscribe, icon: Youtube, url: "https://www.youtube.com/@StarAnimesYT"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
