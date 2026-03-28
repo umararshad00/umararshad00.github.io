@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Home"
+title: "Blog"
+permalink: /blog/
 ---
 
 {% if site.show_excerpts %}
@@ -8,7 +9,9 @@ title: "Home"
     <article>
       {% include meta.html post=post %}
       {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
+      <footer class="button">
+        <a href="{{ post.url | relative_url }}">Read more</a>
+      </footer>
     </article>
   {% endfor %}
 {% else %}
