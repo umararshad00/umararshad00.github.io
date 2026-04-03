@@ -1,7 +1,6 @@
 ---
 title: "The Impact of the Iran-Israel Conflict on My Academic and Campus Experience"
 layout: post
-date: 2026-02-20
 subtitle: "A period of regional tension changed the rhythm of classes, commuting, and campus interaction, and taught me the value of adaptability."
 topics:
   - Online Learning
