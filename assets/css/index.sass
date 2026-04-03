@@ -1,9 +1,475 @@
 ---
 ---
 
-@import utils, basic, layout, classes, rouge_github
+:root
+  color-scheme: light
+  --bg: #f3efe8
+  --bg-warm: #fff8ef
+  --panel: rgba(255, 255, 255, 0.84)
+  --text: #1f2937
+  --muted: #5b6472
+  --line: rgba(31, 41, 55, 0.12)
+  --accent: #0f766e
+  --accent-dark: #0b5e58
+  --accent-soft: rgba(15, 118, 110, 0.12)
+  --shadow: 0 24px 60px rgba(15, 23, 42, 0.12)
+  --radius-xl: 28px
+  --radius-lg: 22px
+  --radius-md: 16px
+  --max-width: 1120px
 
-body > *
-  padding: 1.75em calc(42% - 16rem)
-  padding: clamp(1.5em, 4vw, 1.75em) max(1.5em, calc(42% - 16rem))
-  box-shadow: 0 1px gray(12), 0 1em 2em -1em rgba(light(16), .05)
+*
+  box-sizing: border-box
+
+html
+  scroll-behavior: smooth
+
+body
+  margin: 0
+  min-height: 100vh
+  font-family: "PT Sans", "Segoe UI", sans-serif
+  line-height: 1.7
+  color: var(--text)
+  background: radial-gradient(circle at top left, rgba(15, 118, 110, 0.2), transparent 32%), radial-gradient(circle at 85% 12%, rgba(249, 168, 37, 0.18), transparent 26%), linear-gradient(180deg, var(--bg-warm) 0%, #edf4f7 100%)
+
+body::before
+  content: ""
+  position: fixed
+  inset: 0
+  pointer-events: none
+  background-image: linear-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.22) 1px, transparent 1px)
+  background-size: 32px 32px
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), transparent 78%)
+
+a
+  color: inherit
+  text-decoration: none
+
+img
+  max-width: 100%
+  border-radius: var(--radius-md)
+
+p
+  margin: 0 0 1rem
+
+ul
+  margin: 0
+  padding-left: 1.2rem
+
+li
+  margin-bottom: 0.55rem
+
+h1, h2, h3
+  margin: 0 0 0.9rem
+  line-height: 1.15
+  font-family: Georgia, "Times New Roman", serif
+
+h1
+  font-size: clamp(2.6rem, 6vw, 4.6rem)
+
+h2
+  font-size: clamp(1.6rem, 3vw, 2.35rem)
+
+h3
+  font-size: 1.15rem
+
+blockquote
+  margin: 1.5rem 0
+  padding: 1rem 1.25rem
+  border-left: 4px solid var(--accent)
+  background: var(--accent-soft)
+  border-radius: 0 var(--radius-md) var(--radius-md) 0
+
+code:not(pre code)
+  padding: 0.15rem 0.4rem
+  border-radius: 999px
+  background: rgba(15, 23, 42, 0.08)
+  font-size: 0.92rem
+
+pre
+  overflow-x: auto
+  padding: 1rem 1.1rem
+  border-radius: var(--radius-md)
+  background: #10243a
+  color: #f8fafc
+
+.page-shell
+  width: min(calc(100% - 2rem), var(--max-width))
+  margin: 1rem auto
+  padding: 1rem
+
+.site-header, .site-footer, .content-card, .hero-card, .info-block, .profile-panel, .post-preview, .contact-callout, .contact-grid > div, .section-band
+  backdrop-filter: blur(14px)
+  background: var(--panel)
+  border: 1px solid rgba(255, 255, 255, 0.65)
+  box-shadow: var(--shadow)
+
+.site-header
+  position: sticky
+  top: 1rem
+  z-index: 10
+  display: flex
+  align-items: center
+  justify-content: space-between
+  gap: 1.25rem
+  padding: 1rem 1.2rem
+  border-radius: var(--radius-xl)
+
+.brand
+  display: inline-flex
+  align-items: center
+  gap: 0.9rem
+
+.brand-mark
+  display: inline-grid
+  place-items: center
+  width: 3rem
+  height: 3rem
+  border-radius: 1rem
+  background: linear-gradient(135deg, var(--accent) 0%, #14b8a6 100%)
+  color: #fff
+  font-weight: 700
+  letter-spacing: 0.08em
+
+.brand-copy
+  display: flex
+  flex-direction: column
+  gap: 0.1rem
+
+.brand-copy strong
+  font-size: 1rem
+  letter-spacing: 0.02em
+
+.brand-copy small
+  color: var(--muted)
+  font-size: 0.88rem
+
+.header-menus
+  display: flex
+  align-items: center
+  gap: 1rem
+  flex-wrap: wrap
+  justify-content: flex-end
+
+nav
+  display: flex
+  align-items: center
+  gap: 0.5rem
+  flex-wrap: wrap
+
+nav a
+  transition: 0.22s ease
+
+.site-nav a, .footer-nav a
+  padding: 0.65rem 1rem
+  border-radius: 999px
+  color: var(--muted)
+  font-weight: 700
+
+.site-nav a:hover, .site-nav a.is-active, .footer-nav a:hover
+  color: var(--text)
+  background: rgba(255, 255, 255, 0.7)
+
+.site-nav a.is-active
+  box-shadow: inset 0 0 0 1px rgba(15, 118, 110, 0.18)
+
+.social-nav a
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  width: 2.7rem
+  height: 2.7rem
+  border-radius: 999px
+  color: var(--accent)
+  background: var(--accent-soft)
+
+.social-nav a:hover
+  background: var(--accent)
+  color: #fff
+
+.social-nav svg
+  font-size: 1.1rem
+
+.site-main
+  padding: 2rem 0
+
+.hero-card
+  display: grid
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr)
+  gap: 1.5rem
+  padding: clamp(1.4rem, 4vw, 2.4rem)
+  border-radius: var(--radius-xl)
+  margin-bottom: 1.5rem
+
+.eyebrow
+  display: inline-flex
+  align-items: center
+  gap: 0.5rem
+  margin-bottom: 1rem
+  color: var(--accent)
+  font-size: 0.9rem
+  font-weight: 700
+  letter-spacing: 0.08em
+  text-transform: uppercase
+
+.lead
+  max-width: 42rem
+  color: var(--muted)
+  font-size: 1.08rem
+
+.button-row
+  display: flex
+  gap: 0.85rem
+  flex-wrap: wrap
+  margin-top: 1.6rem
+
+.button-primary, .button-secondary, .text-link
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  gap: 0.4rem
+  padding: 0.9rem 1.2rem
+  border-radius: 999px
+  font-weight: 700
+
+.button-primary
+  color: #fff
+  background: linear-gradient(135deg, var(--accent) 0%, #14b8a6 100%)
+
+.button-primary:hover
+  background: linear-gradient(135deg, var(--accent-dark) 0%, #0f9d8d 100%)
+
+.button-secondary
+  color: var(--text)
+  background: rgba(255, 255, 255, 0.78)
+  border: 1px solid var(--line)
+
+.button-secondary:hover
+  border-color: rgba(15, 118, 110, 0.22)
+  background: #fff
+
+.profile-panel
+  padding: 1.5rem
+  border-radius: var(--radius-lg)
+  display: flex
+  flex-direction: column
+  gap: 1rem
+  justify-content: space-between
+
+.profile-badge
+  display: inline-grid
+  place-items: center
+  width: 4.5rem
+  height: 4.5rem
+  border-radius: 1.4rem
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.18), rgba(20, 184, 166, 0.28))
+  color: var(--accent)
+  font-size: 1.5rem
+  font-weight: 700
+  letter-spacing: 0.08em
+
+.fact-list
+  margin: 0
+
+.fact-list div
+  display: grid
+  gap: 0.2rem
+  padding: 0.85rem 0
+  border-bottom: 1px solid var(--line)
+
+.fact-list div:last-child
+  border-bottom: 0
+
+.fact-list dt
+  color: var(--muted)
+  font-size: 0.9rem
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 0.05em
+
+.fact-list dd
+  margin: 0
+  font-size: 1rem
+
+.feature-grid
+  display: grid
+  grid-template-columns: repeat(3, minmax(0, 1fr))
+  gap: 1rem
+  margin-bottom: 1.5rem
+
+.info-block, .section-band
+  padding: 1.5rem
+  border-radius: var(--radius-lg)
+
+.info-block h2, .section-band h2
+  font-size: 1.45rem
+
+.pill-list
+  display: flex
+  flex-wrap: wrap
+  gap: 0.65rem
+  list-style: none
+  padding: 0
+  margin-top: 1rem
+
+.pill-list li
+  margin: 0
+  padding: 0.55rem 0.9rem
+  border-radius: 999px
+  background: rgba(255, 255, 255, 0.82)
+  border: 1px solid rgba(15, 118, 110, 0.12)
+
+.section-band
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: 1.2rem
+
+.section-band p:last-child
+  margin-bottom: 0
+
+.content-card
+  padding: clamp(1.4rem, 3vw, 2.4rem)
+  border-radius: var(--radius-xl)
+
+.page-heading
+  margin-bottom: 1.4rem
+
+.page-heading h1
+  font-size: clamp(2.2rem, 4vw, 3.4rem)
+
+.page-content
+  color: var(--text)
+
+.page-content h2
+  margin-top: 2rem
+
+.page-content h3
+  margin-top: 1.4rem
+
+.page-content a:not(.button-primary):not(.button-secondary):not(.text-link)
+  color: var(--accent)
+  text-decoration: underline
+  text-decoration-thickness: 2px
+  text-underline-offset: 3px
+
+.contact-stack
+  display: grid
+  gap: 1rem
+
+.contact-callout
+  padding: 1.4rem
+  border-radius: var(--radius-lg)
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.16), rgba(255, 255, 255, 0.84))
+
+.contact-grid
+  display: grid
+  grid-template-columns: repeat(3, minmax(0, 1fr))
+  gap: 1rem
+
+.contact-grid > div
+  padding: 1.3rem
+  border-radius: var(--radius-lg)
+
+.section-heading
+  margin-bottom: 1.2rem
+
+.blog-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))
+  gap: 1rem
+
+.post-preview
+  display: flex
+  flex-direction: column
+  gap: 0.85rem
+  padding: 1.35rem
+  border-radius: var(--radius-lg)
+  min-height: 100%
+
+.post-preview h2
+  font-size: 1.45rem
+  margin-bottom: 0
+
+.post-preview p
+  color: var(--muted)
+
+.post-preview a:hover
+  color: var(--accent)
+
+.post-date
+  margin: 0
+  color: var(--muted)
+  font-size: 0.94rem
+  font-weight: 700
+  letter-spacing: 0.03em
+
+.text-link
+  width: fit-content
+  padding-left: 0
+  color: var(--accent)
+
+.text-link:hover
+  color: var(--accent-dark)
+
+.post-navigation
+  display: flex
+  justify-content: space-between
+  gap: 1rem
+  margin-top: 1rem
+  flex-wrap: wrap
+
+.post-navigation a
+  padding: 0.85rem 1rem
+  border-radius: 999px
+  background: rgba(255, 255, 255, 0.78)
+  border: 1px solid var(--line)
+  font-weight: 700
+
+.post-navigation a:hover
+  border-color: rgba(15, 118, 110, 0.22)
+  color: var(--accent)
+
+.site-footer
+  margin-top: 1rem
+  padding: 1.2rem 1.4rem
+  border-radius: var(--radius-xl)
+  display: flex
+  align-items: center
+  justify-content: space-between
+  gap: 1rem
+  flex-wrap: wrap
+
+.site-footer p
+  margin: 0
+  color: var(--muted)
+
+.footer-nav
+  justify-content: flex-end
+
+@media (max-width: 960px)
+  .site-header, .hero-card, .section-band
+    grid-template-columns: 1fr
+  .site-header
+    position: static
+    flex-direction: column
+    align-items: stretch
+  .header-menus
+    justify-content: flex-start
+  .feature-grid, .contact-grid
+    grid-template-columns: 1fr
+
+@media (max-width: 640px)
+  .page-shell
+    width: min(calc(100% - 1rem), var(--max-width))
+    padding: 0.5rem
+  .site-header, .content-card, .hero-card, .site-footer
+    border-radius: 1.2rem
+  .button-row, .header-menus, nav
+    width: 100%
+  .button-primary, .button-secondary
+    width: 100%
+  .site-nav
+    justify-content: space-between
+  .site-nav a
+    flex: 1 1 calc(50% - 0.5rem)
+    text-align: center

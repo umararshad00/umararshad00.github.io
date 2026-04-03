@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
+<head>
+  {% include head.html %}
+</head>
+<body class="{{ page.body_class | default: "site-page" }}">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="{{ "/" | relative_url }}">
+        <span class="brand-mark">UR</span>
+        <span class="brand-copy">
+          <strong>{{ site.title | escape }}</strong>
+          <small>{{ site.tagline | escape }}</small>
+        </span>
+      </a>
+      <div class="header-menus">
+        {% include menu.html menu=site.navigation class="site-nav" %}
+        {% include menu.html menu=site.external class="social-nav" %}
+      </div>
+    </header>
 
-{% include head.html %}
+    <main class="site-main">
+      {{ content }}
+    </main>
 
-<header class="hover smooth">
-  {% unless site.show_minimal and site.navigation and site.external %}
-    <h1 {% if site.navigation and site.external %}class="full"{% endif %}><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
-  {% endunless %}
-  {% include menu.html menu=site.navigation %}
-  {% include menu.html menu=site.external %}
-</header>
-
-{{ content }}
-
-{%- if site.footer -%}
-<footer class="hover">
-  <div>{{ site.description }}</div>
-  {% include menu.html menu=site.footer %}
-</footer>
-{%- endif -%}
-
+    <footer class="site-footer">
+      <p>{{ site.description }}</p>
+      {% include menu.html menu=site.footer class="footer-nav" %}
+    </footer>
+  </div>
+</body>
 </html>

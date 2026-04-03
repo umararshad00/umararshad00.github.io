@@ -1,34 +1,42 @@
-title: "Umar Arshad"
-author: "Umar Arshad"
-description: "My Perosnal blog site"
-permalink: /:title/
+title: "Umar Rajput"
+author: "Umar Rajput"
+tagline: "Computer Engineering Student"
+description: "A personal website built with Jekyll to share my profile, projects, learning notes, and blog posts."
+email: "rumarrajput2@gmail.com"
+github_url: "https://github.com/umararshad00"
+location: "Pakistan"
+education: "BS Computer Engineering"
+permalink: /blog/:title/
 lang: "en"
-excerpt_separator: "\n\n\n"
+excerpt_separator: "\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
+show_excerpts: false
+show_frame: false
+show_sidebar: false
+show_minimal: false
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+navigation:
+  - {file: "index.html", title: "Home"}
+  - {file: "about.md", title: "About"}
+  - {file: "contact.md", title: "Contact"}
+  - {file: "blog.md", title: "Blog"}
 
-#show_frame: "/assets/images/background.svg"
+external:
+  - {title: "Email", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
+  - {title: "GitHub", icon: github, url: "https://github.com/umararshad00"}
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
+footer:
+  - {title: "Email Me", url: "mailto:rumarrajput2@gmail.com"}
+  - {title: "GitHub Profile", url: "https://github.com/umararshad00"}
+  - {title: "RSS Feed", url: "/feed.xml"}
 
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "home"}
-  - {file: "blog.md", title: "blog"}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:umararshad00@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/umararshad00"}
-  - {title: Subscribe, icon: Youtube, url: "https://www.youtube.com/@StarAnimesYT"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
+exclude:
+  - README.md
+  - UNLICENSE.txt
+  - Gemfile
+  - Gemfile.lock
+  - site-backup-20260403
 
 plugins:
- - jekyll-feed
+  - jekyll-feed
