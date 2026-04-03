@@ -3,11 +3,11 @@ title: "End-to-End Machine Learning Model Development, Implementation, and Docum
 layout: post
 sequence: 5
 subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
-image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library building in Islamabad"
-image_caption: "Quaid-i-Azam University Library, Islamabad"
-image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
+image: "/assets/images/universities/uet-ee.jpg"
+image_alt: "Department of Electrical Engineering building at UET Lahore"
+image_caption: "UET Lahore, Department of Electrical Engineering"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
 topics:
   - Regression Project
   - Model Training

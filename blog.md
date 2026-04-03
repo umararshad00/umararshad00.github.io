@@ -22,7 +22,7 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
       {% endif %}
       <div class="post-preview-copy">
         {% if post.sequence %}
-          <p class="post-sequence">Part {{ post.sequence }}</p>
+          <p class="post-sequence">Article {{ post.sequence }}</p>
         {% endif %}
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {% if post.subtitle %}

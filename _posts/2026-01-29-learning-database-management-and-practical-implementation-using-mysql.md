@@ -3,11 +3,11 @@ title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library building in Islamabad"
-image_caption: "Quaid-i-Azam University Library, Islamabad"
-image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
+image: "/assets/images/universities/uet-ee-detail.jpg"
+image_alt: "Closer view of the Department of Electrical Engineering at UET Lahore"
+image_caption: "UET Lahore Academic Block"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
 topics:
   - Databases
   - MySQL

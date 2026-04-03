@@ -3,9 +3,9 @@ title: "Data Visualization, Model Evaluation, and Dataset Selection"
 layout: post
 sequence: 4
 subtitle: "Exploring charts, evaluation metrics, and dataset selection as part of practical machine learning work."
-image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library building in Islamabad"
-image_caption: "Quaid-i-Azam University Library, Islamabad"
+image: "/assets/images/universities/qau-library-facade.jpg"
+image_alt: "Facade view of Quaid-i-Azam University library in Islamabad"
+image_caption: "Quaid-i-Azam University Library Facade, Islamabad"
 image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
 topics:

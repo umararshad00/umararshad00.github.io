@@ -3,11 +3,11 @@ title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
 sequence: 10
 subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
-image: "/assets/images/universities/punjab-old-campus.jpg"
-image_alt: "Historic old campus of the University of the Punjab in Lahore"
-image_caption: "Punjab University Old Campus, Lahore"
-image_credit: "Photo by Bahawal sher sipra via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Punjab_University_Old_Campus_2.jpg"
+image: "/assets/images/universities/nust-main-focus.jpg"
+image_alt: "Focused campus view of the National University of Sciences and Technology in Islamabad"
+image_caption: "NUST Campus, Islamabad"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Nust.jpg"
 topics:
   - Campus Reopening
   - Midterms
