@@ -1,10 +1,45 @@
 ---
-layout: home
+layout: default
 title: Home
 permalink: /
 description: "Homepage for Umar Arshad with essential profile information."
-landing-title: "Umar Arshad"
-show_tile: false
 ---
 
-<p>I am a <strong>{{ site.education }}</strong> student based in <strong>{{ site.location }}</strong>, focused on <strong>Python, machine learning, database systems, and practical academic growth</strong>. This website highlights my profile, shares important contact information, and keeps my longer reflections organized in the blog section.</p>
+<main class="home-static">
+  <section class="hero-card">
+    <p class="eyebrow">Homepage</p>
+    <h1>{{ site.title }}</h1>
+    <p class="hero-copy">Computer Engineering student focused on Python, machine learning, database systems, and practical academic growth.</p>
+    <p>This homepage stays intentionally static and only includes the essential information. Detailed reflections and full academic experiences are available in the blog section.</p>
+  </section>
+
+  <section class="detail-grid">
+    <div>
+      <span>Education</span>
+      <strong>{{ site.education }}</strong>
+    </div>
+    <div>
+      <span>Location</span>
+      <strong>{{ site.location }}</strong>
+    </div>
+    <div>
+      <span>Focus</span>
+      <strong>Python, Machine Learning, Databases</strong>
+    </div>
+  </section>
+
+  <section class="feature-grid">
+    <a class="feature-card" href="{{ '/blog/' | relative_url }}">
+      <strong>Blog</strong>
+      <span>Read the full collection of university reflections and technical learning notes.</span>
+    </a>
+    <a class="feature-card" href="{{ '/contact/' | relative_url }}">
+      <strong>Contact</strong>
+      <span>Reach me by email or connect through my GitHub profile.</span>
+    </a>
+    <a class="feature-card" href="{{ '/about/' | relative_url }}">
+      <strong>About</strong>
+      <span>See my academic direction, technical interests, and learning approach.</span>
+    </a>
+  </section>
+</main>

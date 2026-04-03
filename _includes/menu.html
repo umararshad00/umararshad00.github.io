@@ -1,25 +1,10 @@
 {%- if include.menu -%}
-<nav{% if include.class %} class="{{ include.class }}"{% endif %}>
+<nav>
 {%- for item in include.menu -%}
   {%- assign node = site.pages | where: "name", item.file | first -%}
-  {%- assign raw_url = item.url | default: node.url -%}
+  {%- assign url = item.url | default: node.url -%}
   {%- assign title = item.title | default: node.title -%}
-  {%- assign is_external = false -%}
-  {%- if raw_url contains "://" or raw_url contains "mailto:" -%}
-    {%- assign is_external = true -%}
-  {%- endif -%}
-  {%- if is_external -%}
-    {%- assign url = raw_url -%}
-  {%- else -%}
-    {%- assign url = raw_url | relative_url -%}
-  {%- endif -%}
-  {%- assign active_class = "" -%}
-  {%- unless is_external -%}
-    {%- if page.url == raw_url or page.url == node.url -%}
-      {%- assign active_class = "is-active" -%}
-    {%- endif -%}
-  {%- endunless -%}
-  <a href="{{ url }}"{% if active_class != "" %} class="{{ active_class }}"{% endif %}{% if item.icon %} aria-label="{{ title }}"{% endif %}>
+  <a href="{{ url | relative_url }}">
     {%- if item.icon -%}
       <svg aria-label="{{ title }}" width="1em" height="1em"><use xlink:href="{{ "/assets/fontawesome/icons.svg" | relative_url }}#{{ item.icon }}"></use></svg>
     {%- else -%}

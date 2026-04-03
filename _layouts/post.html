@@ -2,46 +2,22 @@
 layout: default
 ---
 
-<div id="main" class="alt">
-  <section id="one">
-    <div class="inner">
-      <header class="major">
-        <h1>{{ page.title }}</h1>
-      </header>
-      {% if page.subtitle %}
-      <p class="meta-intro">{{ page.subtitle }}</p>
-      {% endif %}
-      {% if page.image %}
-      <span class="image main"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" /></span>
-      {% endif %}
-      {% if page.topics %}
-      <ul class="topic-badges">
-        {% for topic in page.topics %}
-        <li>{{ topic }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-      {% if page.points %}
-      <div class="box">
-        <h3>In this post</h3>
-        <ul class="summary-points">
-          {% for point in page.points %}
-          <li>{{ point }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-      {{ content }}
-      {% if page.next.url or page.previous.url %}
-      <ul class="actions post-actions">
-        {% if page.next.url %}
-        <li><a href="{{ page.next.url | relative_url }}" class="button">Previous Post</a></li>
-        {% endif %}
-        {% if page.previous.url %}
-        <li><a href="{{ page.previous.url | relative_url }}" class="button special">Next Post</a></li>
-        {% endif %}
-      </ul>
-      {% endif %}
-    </div>
-  </section>
-</div>
+<article>
+  {% include meta.html post=page %}
+  {{ content }}
+  {% if site.comments.isso_domain or site.comments.disqus_shortname %}
+    <hr>
+    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+    <noscript>Please enable JavaScript to view comments.</noscript>
+  {% endif %}
+</article>
+
+{% unless site.show_minimal or site.footer %}
+{% if page.next.url or page.previous.url %}
+<footer class="nowrap {% if site.show_frame %}dark{% else %}smooth{% endif %}">
+  {% if page.next.url %}<a href="{{ page.next.url | relative_url }}">Previous: {{ page.next.title }}</a>{% endif %}
+  {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}">Next: {{ page.previous.title }}</a>{% endif %}
+</footer>
+{% endif %}
+{% endunless %}

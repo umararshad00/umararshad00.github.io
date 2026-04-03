@@ -1,23 +1,22 @@
 title: "Umar Arshad"
-subtitle: "Portfolio"
 author: "Umar Arshad"
-tagline: "Computer Engineering Student"
-email: "rumarrajput2@gmail.com"
 description: "Computer Engineering student sharing academic growth, personal learning experiences, and technical reflections."
-baseurl: ""
-url: "https://umararshad00.github.io"
+email: "rumarrajput2@gmail.com"
 github_url: "https://github.com/umararshad00"
+url: "https://umararshad00.github.io"
+baseurl: ""
+encoding: "utf-8"
 location: "Pakistan"
 education: "BS Computer Engineering"
-country: "Pakistan"
-phone:
-lang: "en"
 permalink: /blog/:title/
+lang: "en"
 excerpt_separator: "\n\n"
 date_format: "%B %d, %Y"
 
-tiles-source: "pages"
-tiles-count: 3
+show_excerpts: false
+show_frame: false
+show_sidebar: false
+show_minimal: false
 
 navigation:
   - {file: "index.html", title: "Home"}
@@ -25,13 +24,14 @@ navigation:
   - {file: "contact.md", title: "Contact"}
   - {file: "about.md", title: "About"}
 
-socials:
-  GitHub: "https://github.com/umararshad00"
+external:
+  - {title: "Mail", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
+  - {title: "Github", icon: github, url: "https://github.com/umararshad00"}
 
 markdown: kramdown
 
-sass:
-  style: compressed
+plugins:
+  - jekyll-feed
 
 exclude:
   - "*.gemspec"
@@ -43,7 +43,6 @@ exclude:
   - UNLICENSE.txt
   - site-backup-20260403
   - site-backup-20260403-forty
+  - site-backup-20260403-contrast
   - _forty_template
-
-plugins:
-  - jekyll-feed
+  - _contrast_template

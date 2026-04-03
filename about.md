@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 subtitle: "A concise look at my academic direction, technical interests, and learning journey."
 description: "About Umar Arshad, a computer engineering student exploring Python, machine learning, databases, and practical software development."
-nav-menu: true
-show_tile: true
-image: assets/images/pic01.jpg
 ---
 
-I am **{{ site.title }}**, a **{{ site.tagline | downcase }}** based in **{{ site.location }}**. My goal is to keep improving through consistent study, practical implementation, and reflective writing about what I learn.
+I am **{{ site.title }}**, a **computer engineering student** based in **{{ site.location }}**. My goal is to keep improving through consistent study, practical implementation, and reflective writing about what I learn.
 
 ## Academic direction
 
