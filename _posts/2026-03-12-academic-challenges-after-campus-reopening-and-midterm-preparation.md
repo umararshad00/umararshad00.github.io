@@ -3,8 +3,11 @@ title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
 sequence: 10
 subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
-image: "https://images.pexels.com/photos/8197498/pexels-photo-8197498.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students walking across a university campus"
+image: "/assets/images/universities/qau-library.jpg"
+image_alt: "Quaid-i-Azam University library building in Islamabad"
+image_caption: "Quaid-i-Azam University, Islamabad"
+image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
 topics:
   - Campus Reopening
   - Midterms

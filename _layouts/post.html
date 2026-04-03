@@ -39,7 +39,23 @@ layout: default
   </header>
   {% if page.image %}
     <figure class="post-hero">
-      <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" loading="eager">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" loading="eager">
+      {% if page.image_caption or page.image_credit %}
+        <figcaption>
+          {% if page.image_caption %}
+            <span>{{ page.image_caption }}</span>
+          {% endif %}
+          {% if page.image_credit %}
+            <span>
+              {% if page.image_credit_url %}
+                <a href="{{ page.image_credit_url }}">{{ page.image_credit }}</a>
+              {% else %}
+                {{ page.image_credit }}
+              {% endif %}
+            </span>
+          {% endif %}
+        </figcaption>
+      {% endif %}
     </figure>
   {% endif %}
   {% if page.points %}

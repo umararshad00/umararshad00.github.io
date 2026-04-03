@@ -3,8 +3,11 @@ title: "The Impact of Iran-Israel Conflict on My Academic and Campus Experience"
 layout: post
 sequence: 9
 subtitle: "Adapting my studies and campus routine during a period of regional disruption and uncertainty."
-image: "https://images.pexels.com/photos/8199133/pexels-photo-8199133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students attending an online class on laptops"
+image: "/assets/images/universities/islamia-college-peshawar.jpg"
+image_alt: "Islamia College University campus building in Peshawar"
+image_caption: "Islamia College University, Peshawar"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan.jpg"
 topics:
   - Online Learning
   - Adaptability

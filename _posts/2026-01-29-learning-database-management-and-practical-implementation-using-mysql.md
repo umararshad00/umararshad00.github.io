@@ -3,8 +3,11 @@ title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "https://images.pexels.com/photos/5530490/pexels-photo-5530490.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students using desktop computers in a university lab"
+image: "/assets/images/universities/punjab-old-campus.jpg"
+image_alt: "Historic old campus of the University of the Punjab in Lahore"
+image_caption: "University of the Punjab, Lahore"
+image_credit: "Photo by Bahawal sher sipra via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Punjab_University_Old_Campus_2.jpg"
 topics:
   - Databases
   - MySQL

@@ -3,8 +3,11 @@ title: "End-to-End Machine Learning Model Development, Implementation, and Docum
 layout: post
 sequence: 5
 subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
-image: "https://images.pexels.com/photos/6549913/pexels-photo-6549913.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "University student working on a laptop with notes nearby"
+image: "/assets/images/universities/punjab-old-campus.jpg"
+image_alt: "Historic old campus of the University of the Punjab in Lahore"
+image_caption: "University of the Punjab, Lahore"
+image_credit: "Photo by Bahawal sher sipra via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Punjab_University_Old_Campus_2.jpg"
 topics:
   - Regression Project
   - Model Training

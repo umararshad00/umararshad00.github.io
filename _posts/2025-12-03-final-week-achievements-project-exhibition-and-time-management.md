@@ -3,8 +3,11 @@ title: "Final Week Achievements, Project Exhibition, and Time Management"
 layout: post
 sequence: 6
 subtitle: "Presenting my project, managing pressure, and preparing for finals in the semester's final stretch."
-image: "https://images.pexels.com/photos/8197545/pexels-photo-8197545.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students presenting and discussing work in a classroom"
+image: "/assets/images/universities/islamia-college-peshawar.jpg"
+image_alt: "Islamia College University campus building in Peshawar"
+image_caption: "Islamia College University, Peshawar"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan.jpg"
 topics:
   - Final Week
   - Project Presentation

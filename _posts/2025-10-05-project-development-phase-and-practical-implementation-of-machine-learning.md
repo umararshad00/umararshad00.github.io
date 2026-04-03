@@ -3,8 +3,11 @@ title: "Project Development Phase and Practical Implementation of Machine Learni
 layout: post
 sequence: 3
 subtitle: "Turning machine learning concepts into hands-on practice through models, libraries, and visualization."
-image: "https://images.pexels.com/photos/5530483/pexels-photo-5530483.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students working together on laptops in a university setting"
+image: "/assets/images/universities/islamia-college-peshawar.jpg"
+image_alt: "Islamia College University campus building in Peshawar"
+image_caption: "Islamia College University, Peshawar"
+image_credit: "Photo via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan.jpg"
 topics:
   - Project Work
   - Python Libraries

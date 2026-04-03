@@ -3,8 +3,11 @@ title: "Beginning of My University Journey and Learning the Academic System"
 layout: post
 sequence: 1
 subtitle: "A reflective start to university life, continuous assessment, and my first Python classes."
-image: "https://images.pexels.com/photos/8199165/pexels-photo-8199165.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
-image_alt: "Students gathered in a university classroom"
+image: "/assets/images/universities/qau-library.jpg"
+image_alt: "Quaid-i-Azam University library building in Islamabad"
+image_caption: "Quaid-i-Azam University, Islamabad"
+image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
 topics:
   - University Life
   - Programming Fundamentals

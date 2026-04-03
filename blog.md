@@ -17,13 +17,19 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
     <article class="post-preview">
       {% if post.image %}
         <a class="post-preview-media" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
         </a>
       {% endif %}
       <div class="post-preview-copy">
+        {% if post.sequence %}
+          <p class="post-sequence">Part {{ post.sequence }}</p>
+        {% endif %}
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {% if post.subtitle %}
           <p class="post-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+        {% if post.image_caption %}
+          <p class="post-media-note">{{ post.image_caption }}</p>
         {% endif %}
         {% if post.points %}
           <ul class="compact-points">
@@ -32,8 +38,8 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
             {% endfor %}
           </ul>
         {% endif %}
+        <a class="text-link" href="{{ post.url | relative_url }}">Read full post</a>
       </div>
-      <a class="text-link" href="{{ post.url | relative_url }}">Read full post</a>
     </article>
   {% endfor %}
 </section>
