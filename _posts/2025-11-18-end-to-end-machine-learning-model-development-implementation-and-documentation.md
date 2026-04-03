@@ -1,7 +1,6 @@
 ---
 title: "End-to-End Machine Learning Model Development, Implementation, and Documentation"
 layout: post
-date: 2025-11-18
 subtitle: "This project phase brought together data preprocessing, feature engineering, model training, evaluation, and report writing into one complete workflow."
 topics:
   - Regression Project
