@@ -1,7 +1,6 @@
 ---
 title: "Project Development Phase and Practical Implementation of Machine Learning"
 layout: post
-date: 2025-10-05
 subtitle: "This stage moved my learning from theory into hands-on project work with machine learning models, coding libraries, and data visualization."
 topics:
   - Machine Learning Project
