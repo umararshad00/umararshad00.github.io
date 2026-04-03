@@ -4,13 +4,29 @@ layout: default
 
 <article class="content-card post-full">
   <header class="page-heading">
-    <p class="eyebrow">Blog Post</p>
+    <p class="eyebrow">Blog</p>
     <h1>{{ page.title }}</h1>
-    <p class="post-date">{{ page.date | date: site.date_format }}</p>
     {% if page.subtitle %}
       <p class="lead">{{ page.subtitle }}</p>
     {% endif %}
+    {% if page.topics %}
+      <ul class="topic-badges">
+        {% for topic in page.topics %}
+          <li>{{ topic }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </header>
+  {% if page.points %}
+    <section class="summary-box">
+      <h2>In This Post</h2>
+      <ul class="summary-points">
+        {% for point in page.points %}
+          <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
   <div class="page-content">
     {{ content }}
   </div>

@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="content-card">
   <header class="page-heading">
-    <p class="eyebrow">{{ page.kicker | default: site.tagline }}</p>
+    <p class="eyebrow">{{ page.kicker | default: page.title }}</p>
     <h1>{{ page.title }}</h1>
     {% if page.subtitle %}
       <p class="lead">{{ page.subtitle }}</p>

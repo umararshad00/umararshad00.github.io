@@ -1,24 +1,32 @@
 ---
-layout: default
+layout: page
 title: "Blog"
 permalink: /blog/
+kicker: Journal
 body_class: blog-page
-description: "Blog posts and personal experiences by Umar Arshad."
+description: "University journey, academic reflections, and technical learning notes by Umar Arshad."
+subtitle: "Personal reflections, semester experiences, and technical learning notes."
 ---
 
-<section class="section-heading">
-  <p class="eyebrow">Writing</p>
-  <h1>Blog</h1>
-  <p class="lead">All posts are listed here. Click any title or button to open the full post and read it completely.</p>
-</section>
+<p>This section collects my academic reflections, semester experiences, project work, and practical learning in programming, machine learning, and database systems.</p>
 
 {% if site.posts.size > 0 %}
-<section class="blog-grid">
+<section class="blog-list">
   {% for post in site.posts %}
     <article class="post-preview">
-      <p class="post-date">{{ post.date | date: site.date_format }}</p>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
+      <div class="post-preview-copy">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.subtitle %}
+          <p class="post-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+        {% if post.points %}
+          <ul class="compact-points">
+            {% for point in post.points limit: 3 %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
       <a class="text-link" href="{{ post.url | relative_url }}">Read full post</a>
     </article>
   {% endfor %}

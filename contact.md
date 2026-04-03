@@ -2,15 +2,15 @@
 layout: page
 title: Contact Us
 permalink: /contact/
-kicker: Get in touch
+kicker: Contact
 subtitle: "The easiest way to reach me is by email."
 description: "Contact page for Umar Arshad."
 ---
 
 <div class="contact-stack">
-  <section class="contact-callout">
-    <h2>Let's connect</h2>
-    <p>If you would like to discuss a project, share an opportunity, or simply get in touch, you can contact me directly through email.</p>
+  <section class="contact-card">
+    <h2>Direct contact</h2>
+    <p>If you would like to discuss a project, connect for academic collaboration, or simply get in touch, the easiest way to reach me is through email.</p>
     <p>
       <a class="button-primary" href="mailto:{{ site.email }}">{{ site.email }}</a>
     </p>

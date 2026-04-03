@@ -3,24 +3,25 @@ title: Home
 layout: default
 permalink: /
 body_class: home-page
-description: "Homepage for Umar Arshad with fixed personal information and links to the rest of the site."
+description: "Static homepage for Umar Arshad with essential profile information and quick navigation to blog, contact, and about pages."
 ---
 
-<section class="hero-card">
-  <div>
-    <p class="eyebrow">{{ site.tagline }}</p>
-    <h1>Building a professional online presence with clear information and thoughtful writing.</h1>
-    <p class="lead">This main page shares fixed personal information only, so visitors can quickly understand who I am, what I study, and what areas I am focused on. All blog posts stay on the separate blog page.</p>
+<section class="hero-card hero-home">
+  <div class="hero-main">
+    <p class="eyebrow">Homepage</p>
+    <h1>{{ site.title }}</h1>
+    <p class="lead">Computer engineering student focused on programming fundamentals, machine learning, database systems, and steady academic growth.</p>
+    <p class="support-copy">This homepage stays intentionally static and only includes essential profile information. Full semester experiences, project reflections, and learning notes are collected in the blog section.</p>
 
     <div class="button-row">
-      <a class="button-primary" href="{{ '/about/' | relative_url }}">Learn more about me</a>
-      <a class="button-secondary" href="{{ '/blog/' | relative_url }}">Open the blog</a>
+      <a class="button-primary" href="{{ '/blog/' | relative_url }}">Explore the blog</a>
+      <a class="button-secondary" href="{{ '/about/' | relative_url }}">About me</a>
     </div>
   </div>
 
   <aside class="profile-panel">
-    <span class="profile-badge">UA</span>
-    <dl class="fact-list">
+    <span class="panel-label">Quick profile</span>
+    <dl class="detail-list">
       <div>
         <dt>Name</dt>
         <dd>{{ site.title }}</dd>
@@ -34,56 +35,46 @@ description: "Homepage for Umar Arshad with fixed personal information and links
         <dd>{{ site.location }}</dd>
       </div>
       <div>
-        <dt>Email</dt>
+        <dt>Contact</dt>
         <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
       </div>
     </dl>
   </aside>
 </section>
 
-<section class="feature-grid">
-  <article class="info-block">
-    <h2>Core skills</h2>
-    <p>I am building a strong base in software and engineering through practical projects and steady self-learning.</p>
-    <ul class="pill-list">
-      <li>C#</li>
-      <li>SQL</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Markdown</li>
-      <li>Git and GitHub</li>
-    </ul>
+<section class="info-grid">
+  <article class="info-card">
+    <h2>Academic direction</h2>
+    <p>I am building a stronger academic foundation through coursework, lab practice, machine learning projects, and reflective writing about what I learn each semester.</p>
   </article>
 
-  <article class="info-block">
+  <article class="info-card">
     <h2>Current focus</h2>
-    <p>My current learning path combines computer engineering studies with web development and the basics of machine learning.</p>
-    <ul class="pill-list">
-      <li>Problem solving</li>
-      <li>Clean website structure</li>
-      <li>Consistent practice</li>
-      <li>Project-based learning</li>
-    </ul>
+    <p>My current focus includes Python, data analysis, machine learning concepts, database systems, and the discipline required to grow through regular study.</p>
   </article>
 
-  <article class="info-block">
-    <h2>What you will find here</h2>
-    <p>This site is organized around four clear sections: a static home page, an about page, a contact page, and a separate blog for posts and personal experiences.</p>
-    <ul class="pill-list">
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>Blog</li>
-    </ul>
+  <article class="info-card">
+    <h2>How this site is organized</h2>
+    <p>The homepage stays static, the about page introduces my direction, the contact page shares direct details, and the blog documents the deeper story behind my academic journey.</p>
   </article>
 </section>
 
-<section class="section-band">
-  <div>
-    <p class="eyebrow">Professional approach</p>
-    <h2>I prefer simple structure, clear communication, and meaningful improvement over clutter.</h2>
-  </div>
-  <div>
-    <p>Whether I am learning a new technical topic or building a personal project, I focus on creating work that is organized, readable, and useful. That same approach shaped this site: the homepage stays clean and informative, while the blog collects posts in one dedicated place.</p>
-  </div>
+<section class="quick-grid">
+  <a class="section-card" href="{{ '/blog/' | relative_url }}">
+    <span class="eyebrow">Journal</span>
+    <strong>Blog</strong>
+    <p>Read full posts about university life, assessments, projects, and technical learning.</p>
+  </a>
+
+  <a class="section-card" href="{{ '/contact/' | relative_url }}">
+    <span class="eyebrow">Reach out</span>
+    <strong>Contact</strong>
+    <p>Use the contact page to email me directly or connect through GitHub.</p>
+  </a>
+
+  <a class="section-card" href="{{ '/about/' | relative_url }}">
+    <span class="eyebrow">Profile</span>
+    <strong>About</strong>
+    <p>See my academic interests, technical direction, and the way I approach learning.</p>
+  </a>
 </section>

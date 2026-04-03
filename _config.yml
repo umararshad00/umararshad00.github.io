@@ -1,11 +1,14 @@
 title: "Umar Arshad"
 author: "Umar Arshad"
-tagline: "Computer Engineering Student"
-description: "A personal website built with Jekyll to share my profile, projects, learning notes, and blog posts."
+tagline: "BS Computer Engineering Student"
+description: "Academic portfolio and personal learning journal focused on programming, machine learning, database systems, and continuous improvement."
 email: "rumarrajput2@gmail.com"
 github_url: "https://github.com/umararshad00"
 location: "Pakistan"
 education: "BS Computer Engineering"
+url: "https://umararshad00.github.io"
+baseurl: ""
+encoding: "utf-8"
 permalink: /blog/:title/
 lang: "en"
 excerpt_separator: "\n\n"
@@ -18,18 +21,13 @@ show_minimal: false
 
 navigation:
   - {file: "index.html", title: "Home"}
-  - {file: "about.md", title: "About"}
-  - {file: "contact.md", title: "Contact"}
   - {file: "blog.md", title: "Blog"}
+  - {file: "contact.md", title: "Contact"}
+  - {file: "about.md", title: "About"}
 
 external:
   - {title: "Email", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
   - {title: "GitHub", icon: github, url: "https://github.com/umararshad00"}
-
-footer:
-  - {title: "Email Me", url: "mailto:rumarrajput2@gmail.com"}
-  - {title: "GitHub Profile", url: "https://github.com/umararshad00"}
-  - {title: "RSS Feed", url: "/feed.xml"}
 
 exclude:
   - README.md
@@ -37,6 +35,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - site-backup-20260403
+  - site-backup-20260403-professional-redesign
 
 plugins:
   - jekyll-feed
