@@ -10,7 +10,24 @@ layout: default
     {% if page.subtitle %}
       <p class="lead">{{ page.subtitle }}</p>
     {% endif %}
+    {% if page.topics %}
+    <div class="tag-list">
+      {% for topic in page.topics %}
+        <span class="tag-pill">{{ topic }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
   </header>
+  {% if page.points %}
+  <section class="post-summary-card">
+    <h2>In this reflection</h2>
+    <ul class="summary-list">
+      {% for point in page.points %}
+        <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
   <div class="page-content">
     {{ content }}
   </div>
