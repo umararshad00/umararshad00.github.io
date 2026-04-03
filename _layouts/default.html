@@ -4,11 +4,6 @@
   {% include head.html %}
 </head>
 <body class="{{ page.body_class | default: "site-page" }}">
-  <div class="site-backdrop" aria-hidden="true">
-    <span class="backdrop-orb backdrop-orb-one"></span>
-    <span class="backdrop-orb backdrop-orb-two"></span>
-    <span class="backdrop-grid"></span>
-  </div>
   <div class="page-shell">
     <header class="site-header">
       <a class="brand" href="{{ "/" | relative_url }}">

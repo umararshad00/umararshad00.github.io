@@ -21,11 +21,11 @@ description: "University journey, academic reflections, and technical learning n
     </div>
     <div class="stat-chip">
       <strong>Python, ML, DBMS</strong>
-      <span>Core learning </span>
+      <span>Core learning areas</span>
     </div>
     <div class="stat-chip">
-      <strong>Univesity Life Journey</strong>
-      <span>Learning lessons of life</span>
+      <strong>University Journey</strong>
+      <span>Academic reflections and lessons</span>
     </div>
   </div>
 </section>
