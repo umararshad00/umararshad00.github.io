@@ -1,7 +1,6 @@
 ---
 title: "Final Week Achievements, Project Exhibition, and Time Management"
 layout: post
-date: 2025-12-03
 subtitle: "The final week of the semester tested my ability to present technical work, manage pressure, and prepare for what came next."
 topics:
   - Project Exhibition
