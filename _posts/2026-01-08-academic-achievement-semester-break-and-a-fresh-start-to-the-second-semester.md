@@ -1,7 +1,6 @@
 ---
 title: "Academic Achievement, Semester Break, and a Fresh Start to the Second Semester"
 layout: post
-date: 2026-01-08
 subtitle: "A strong GPA, a much-needed break, and the start of a new semester marked an encouraging transition in my university journey."
 topics:
   - GPA
