@@ -1,7 +1,6 @@
 ---
 title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
-date: 2026-03-12
 subtitle: "Returning to campus after disruption brought relief, but it also created pressure through pending quizzes, a hybrid schedule, and fast-approaching midterms."
 topics:
   - Midterms
