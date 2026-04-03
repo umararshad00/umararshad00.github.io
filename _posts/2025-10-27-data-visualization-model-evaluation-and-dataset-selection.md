@@ -1,29 +1,24 @@
 ---
 title: "Data Visualization, Model Evaluation, and Dataset Selection"
 layout: post
-subtitle: "Learning how to visualize data, evaluate models, and choose the right dataset helped me move from basic machine learning concepts to practical decision-making."
+sequence: 4
+subtitle: "Exploring charts, evaluation metrics, and dataset selection as part of practical machine learning work."
+image: "https://images.pexels.com/photos/5530487/pexels-photo-5530487.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Students reviewing study material in a university library"
 topics:
   - Data Visualization
   - Model Evaluation
   - Dataset Selection
 points:
-  - Learning data visualization techniques such as bar charts, histograms, box plots, and scatter plots
-  - Understanding model evaluation methods like confusion matrix, MSE, and RMSE
-  - Selecting an appropriate dataset through review and decision-making
+  - Learning data visualization techniques (Bar Chart, Histogram, Box Plot, Scatter Plot)
+  - Understanding model evaluation methods (Confusion Matrix, MSE, RMSE)
+  - Dataset selection process based on availability and decision-making
 ---
 
-One of the most valuable phases of my machine learning journey was learning how to work with data more effectively through visualization, evaluation, and dataset selection. These skills helped me move beyond basic theory and understand how machine learning projects are shaped in practice.
+During my university journey, one of the most valuable learning experiences was understanding how to work with data effectively through visualization, evaluation, and proper dataset selection. These skills played a crucial role in strengthening my knowledge of machine learning and helped me move from basic concepts to practical implementation. At the beginning of this phase, I focused on learning data visualization techniques, which are essential for interpreting and presenting data in a meaningful way. I studied different types of charts and graphs, including bar charts, histograms, box plots, bar plots, and scatter plots. Each of these visualizations has its own purpose; for example, bar charts help compare categories, histograms show data distribution, and scatter plots help identify relationships between variables. Learning how to create these visualizations through coding allowed me to better understand patterns, trends, and insights within datasets. This not only improved my analytical thinking but also helped me present data in a more clear and professional manner.
 
-The first part of this phase focused on data visualization. I studied a range of chart types, including bar charts, histograms, box plots, bar plots, and scatter plots. Each of these visuals served a different purpose. Some helped compare categories, some revealed data distribution, and others showed relationships between variables.
+After gaining a solid understanding of visualization, I moved on to learning how to evaluate machine learning models. Model evaluation is a critical step because it helps determine how well a model is performing. I studied different evaluation techniques such as the Confusion Matrix, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE). I learned that the confusion matrix is mainly used for classification problems, where the goal is to categorize data into different classes. On the other hand, MSE and RMSE are used for regression problems, where the objective is to predict continuous values. Since my selected dataset was related to a regression problem, I applied MSE and RMSE to evaluate the performance of my model. This helped me understand how close my predicted values were to the actual values and how to measure the accuracy of my model effectively. Learning these evaluation techniques gave me a deeper insight into how machine learning models are assessed in real-world applications.
 
-Writing code to produce these visualizations made a big difference in my learning. Instead of looking at a dataset as a block of numbers, I started seeing patterns, trends, outliers, and relationships. This improved both my analytical thinking and my ability to communicate findings in a clearer and more professional way.
+Another important part of this phase was the dataset selection process. Our instructor provided multiple datasets and asked students to choose one based on a "first come, first serve" system. This created a sense of urgency and decision-making among students, as everyone wanted to select a dataset that was both interesting and manageable. I carefully reviewed the available options and selected a dataset that suited my understanding and project requirements. This experience taught me how to make quick yet effective decisions and understand the importance of choosing the right dataset for a machine learning project.
 
-After strengthening my understanding of visualization, I moved on to model evaluation. This step taught me how to judge whether a machine learning model is actually performing well. I learned about the confusion matrix for classification problems and also studied Mean Squared Error (MSE) and Root Mean Squared Error (RMSE), which are commonly used for regression tasks.
-
-Since my chosen dataset later turned out to be a regression problem, MSE and RMSE became especially important to me. These measures helped me understand how close the predicted values were to the actual values and gave me a practical way to compare model performance. This was the stage when evaluation stopped feeling like theory and started feeling like a meaningful part of the workflow.
-
-Another important step during this phase was dataset selection. Our instructor provided several options and asked students to choose according to availability. That created a sense of urgency, because selecting the right dataset meant balancing interest, difficulty, and practicality.
-
-I carefully reviewed the available choices and selected a dataset that suited my understanding and project goals. That decision-making process was more important than it first seemed. It taught me that the success of a project often begins with choosing the right problem and the right data, not just with writing the code later.
-
-Overall, this stage improved my ability to visualize information, assess results, and make academic decisions with more confidence. It was one of the clearest examples of how technical learning develops through both understanding and choice.
+Overall, this stage of my learning journey significantly enhanced my practical skills. I not only learned how to visualize and analyze data but also understood how to evaluate model performance and select appropriate datasets. Despite minor challenges during the process, I remained focused on learning and improving my skills, which ultimately helped me grow as a more confident and capable student in the field of machine learning.

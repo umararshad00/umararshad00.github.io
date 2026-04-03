@@ -10,10 +10,16 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
 
 <p>This section collects my academic reflections, semester experiences, project work, and practical learning in programming, machine learning, and database systems.</p>
 
+{% assign ordered_posts = site.posts | sort: "sequence" %}
 {% if site.posts.size > 0 %}
 <section class="blog-list">
-  {% for post in site.posts %}
+  {% for post in ordered_posts %}
     <article class="post-preview">
+      {% if post.image %}
+        <a class="post-preview-media" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
+        </a>
+      {% endif %}
       <div class="post-preview-copy">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {% if post.subtitle %}

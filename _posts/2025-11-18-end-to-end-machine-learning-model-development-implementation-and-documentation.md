@@ -1,29 +1,30 @@
 ---
 title: "End-to-End Machine Learning Model Development, Implementation, and Documentation"
 layout: post
-subtitle: "This project phase brought together data preprocessing, feature engineering, model training, evaluation, and report writing into one complete workflow."
+sequence: 5
+subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
+image: "https://images.pexels.com/photos/6549913/pexels-photo-6549913.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "University student working on a laptop with notes nearby"
 topics:
   - Regression Project
-  - Random Forest
-  - Technical Documentation
+  - Model Training
+  - Documentation
 points:
   - Selecting a regression dataset and defining the prediction problem
-  - Building the workflow through preprocessing, visualization, and feature engineering
-  - Training, evaluating, selecting the final model, and documenting the project
+  - Step-by-step coding process (data preprocessing, visualization, and feature engineering)
+  - Model training, evaluation, final model selection, and project documentation
 ---
 
-After understanding data visualization and model evaluation, I moved into the most important part of my project: the full implementation of a machine learning model. For this stage, I selected the PakWheels Used Car Dataset, where the main objective was to predict car prices. Since the project involved continuous values, it naturally became a regression problem.
+After completing the initial phases of understanding data visualization and model evaluation, I moved towards the most important part of my project, which was the complete implementation of a machine learning model. In this stage, I selected a dataset based on a regression problem known as the PakWheels Used Car Dataset, where the main objective was to predict car prices. This dataset provided a real-world scenario, allowing me to apply my knowledge practically and understand how machine learning models are used in real applications. Choosing a regression problem also helped me focus on predicting continuous values, which required careful handling of data and proper evaluation techniques.
 
-This dataset gave me the chance to work on a practical, real-world task rather than a purely academic example. It helped me understand how machine learning can be used to solve problems that people actually care about, such as estimating the value of a used car based on its features.
+Once the dataset was selected, I started working on my code step by step. I followed a structured approach to ensure that each part of the implementation was clear and well-organized. First, I imported all the necessary libraries required for the project. After that, I loaded the dataset into the working environment and began exploring it. One of the initial challenges I encountered was dealing with missing values, which I handled carefully to ensure that the dataset remained clean and usable. Data preprocessing is a critical step in any machine learning project, and this experience helped me understand its importance.
 
-I approached the project in a structured and step-by-step way. First, I imported the necessary libraries and loaded the dataset into my working environment. Then I began exploring the data and identifying issues such as missing values. Handling these issues carefully taught me how important data preprocessing is to the quality of the final model.
+After cleaning the data, I moved on to data visualization, where I created different types of charts to better understand the dataset. These visualizations helped me identify patterns, trends, and relationships between variables, which later supported model building. Following this, I performed feature encoding, specifically using One-Hot Encoding, to convert categorical data into a numerical format that machine learning models can process. This step was essential because most algorithms require numerical input.
 
-Once the data became cleaner, I created visualizations to better understand patterns and relationships in the dataset. After that, I performed feature encoding, especially One-Hot Encoding, so that categorical variables could be converted into numerical form. This step was essential because machine learning algorithms require numeric input.
+Next, I divided the dataset into training and testing sets using the train-test split method. This allowed me to train the model on one portion of the data and test its performance on unseen data, ensuring that the model generalizes well. After preparing the data, I moved towards model selection, where I experimented with three different algorithms: Logistic Regression, Decision Tree, and Random Forest. Even though Logistic Regression is generally used for classification problems, I explored it for learning purposes, while Decision Tree and Random Forest were more suitable for my regression task.
 
-Next, I divided the data into training and testing sets using the train-test split method. This allowed me to train models on one portion of the dataset and then evaluate them on unseen data. That separation was important for understanding whether the model could generalize instead of simply memorizing the data.
+Once the models were selected, I performed model training, where each model learned from the training data. After training, I evaluated the models using appropriate regression metrics, including Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R2 Score. These metrics helped me understand how accurately my model was predicting car prices. Since my project was based on a regression problem, these evaluation methods were the most suitable choices.
 
-For model selection, I explored Logistic Regression, Decision Tree, and Random Forest. Logistic Regression was included mainly for learning purposes, while Decision Tree and Random Forest were more suitable for the regression task. After training the models, I evaluated them using MSE, RMSE, and R2 Score.
+After comparing the performance of all models, I found that the Random Forest model gave the best results. Therefore, I selected it as my final model and saved it for future use. At the end of the project, I also created a scatter plot of actual vs predicted prices, which visually demonstrated how closely my model's predictions matched the real values.
 
-When I compared the results, Random Forest gave the strongest performance, so I selected it as my final model. I also created a scatter plot of actual versus predicted prices, which visually showed how closely the model's output matched the real values. That chart gave me a clearer sense of how well the final solution was working.
-
-In addition to coding, I prepared a detailed project report of around 15 to 20 pages. In that report, I explained the purpose of each section of the code, the workflow I followed, and the reasoning behind my decisions. This documentation phase strengthened my ability to communicate technical work clearly, and it reminded me that good projects require not only implementation, but also explanation.
+In addition to coding and implementation, I also prepared a detailed project report consisting of approximately 15 to 20 pages. In this report, I clearly explained each part of my code, describing what every section was doing and why it was important. I also included additional explanations about concepts, methodologies, and results to make the report more comprehensive. This documentation process not only improved my understanding but also enhanced my ability to communicate technical work in a clear and professional manner. Overall, this phase of the project helped me develop both my technical and documentation skills, which are essential for future academic and professional growth.

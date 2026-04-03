@@ -1,29 +1,24 @@
 ---
-title: "The Impact of the Iran-Israel Conflict on My Academic and Campus Experience"
+title: "The Impact of Iran-Israel Conflict on My Academic and Campus Experience"
 layout: post
-subtitle: "A period of regional tension changed the rhythm of classes, commuting, and campus interaction, and taught me the value of adaptability."
+sequence: 9
+subtitle: "Adapting my studies and campus routine during a period of regional disruption and uncertainty."
+image: "https://images.pexels.com/photos/8199133/pexels-photo-8199133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Students attending an online class on laptops"
 topics:
   - Online Learning
   - Adaptability
-  - Campus Experience
+  - Campus Life
 points:
-  - Transition from physical classes to online learning platforms
-  - Challenges in daily commute and changing study routine
-  - Disruption of campus engagement and social interaction
+  - Transition from Physical Classes to Online Learning Platforms
+  - Challenges in Daily Commute and Changing Study Routine
+  - Disruption of Campus Engagement and Social Interaction
 ---
 
-During my university journey, external circumstances also shaped my academic experience in unexpected ways. A period of regional tension linked to the Iran-Israel conflict indirectly affected our daily campus life and changed the way classes were conducted. It reminded me that education does not exist in isolation from the wider world.
+During my university journey, external circumstances also played a significant role in shaping my academic experience. One such situation was the impact of the Iran-Israel conflict, which indirectly affected our daily campus life. Due to rising tensions in the region, there were concerns related to oil supply, which eventually led to fuel shortages and economic pressure. As a result, our university had to make adjustments to ensure the continuity of education. One of the major changes was the shift from physical classes to online learning platforms. Some of our classes were conducted online, and instead of attending lectures on campus, we had to rely on digital tools such as WhatsApp and other communication platforms. This transition required me to quickly adapt to a new mode of learning, where self-discipline and time management became even more important. Although it was different from the traditional classroom environment, it helped me develop flexibility and improve my ability to learn independently.
 
-Because of the situation and the pressures it created, our university had to adjust its routine to maintain continuity in learning. Some classes were shifted from physical classrooms to online platforms, and we had to depend more on WhatsApp and other digital communication tools for updates, lectures, and coordination.
+Another significant impact of this situation was on my daily commute and routine. Due to fuel shortages, transportation became both difficult and expensive. Traveling to the university was no longer as convenient as before, which forced me to rethink how I managed my time and attendance. In many cases, I had to depend more on online communication and digital resources to keep up with my studies. This experience taught me how external factors, even those beyond academic control, can influence student life. It also encouraged me to become more organized and proactive in managing my schedule, ensuring that I did not fall behind in my coursework despite these challenges.
 
-This transition required quick adjustment. In a normal classroom setting, schedules and routines feel more stable, but online learning places greater responsibility on the student. I had to become more self-disciplined and more careful with time management in order to keep up with academic tasks.
+In addition to academic disruptions, the conflict also affected the social and interactive aspects of campus life. Many on-campus activities, group discussions, and collaborative sessions were either postponed or shifted to online formats. This change reduced face-to-face interaction with classmates and limited opportunities for teamwork in a physical setting. I realized how important in-person collaboration is for effective learning and communication. Working on projects virtually was different and sometimes less engaging, but it also helped me improve my digital communication and teamwork skills in an online environment.
 
-Another major effect of the situation was on transportation. Fuel shortages and rising costs made daily commuting more difficult and more expensive. Traveling to university was no longer as smooth as before, which pushed me to rely more heavily on digital resources and remote communication whenever possible.
-
-This experience taught me that external conditions can affect academic life in ways that are beyond a student's control. Even so, it also showed me that adapting quickly is an important part of being a serious learner. Instead of allowing the disruption to completely halt progress, I tried to stay organized and continue learning through the available channels.
-
-The situation also affected the social side of campus life. Face-to-face interaction with classmates became less frequent, and many collaborative activities shifted into online formats. That reduced some of the energy and engagement that naturally comes from in-person discussion and teamwork.
-
-At the same time, it pushed me to become more comfortable with digital collaboration. Working in online settings is different from working in the classroom, but it is still an important skill. I learned how to communicate more clearly through digital tools and how to stay connected with academic work even when the usual structure was disrupted.
-
-Overall, this phase of my journey became a lesson in resilience and adaptability. It showed me that while external challenges can interrupt routines, progress is still possible when focus, flexibility, and consistency are maintained.
+Despite these challenges, this experience became a valuable part of my learning journey. It taught me resilience, adaptability, and the importance of maintaining consistency even in uncertain situations. I learned that while external factors can disrupt normal routines, the ability to adjust and continue progressing is what truly defines a successful student. Overall, this phase not only tested my academic discipline but also strengthened my ability to handle real-life challenges alongside my studies.

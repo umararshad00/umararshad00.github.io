@@ -1,29 +1,26 @@
 ---
 title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
-subtitle: "Returning to campus after disruption brought relief, but it also created pressure through pending quizzes, a hybrid schedule, and fast-approaching midterms."
+sequence: 10
+subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
+image: "https://images.pexels.com/photos/8197498/pexels-photo-8197498.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Students walking across a university campus"
 topics:
+  - Campus Reopening
   - Midterms
   - Hybrid Learning
-  - Academic Pressure
 points:
   - Return to campus and sudden preparation for midterm examinations
   - Managing pending quizzes alongside midterm exams
-  - Adapting to a hybrid schedule with on-campus and online classes
+  - Adapting to a hybrid schedule (on-campus and online classes)
 ---
 
-After the campus lockdown and the break that followed, our university finally reopened and physical classes resumed. Returning to campus was a relief, because it brought back a sense of routine, direct interaction, and classroom focus. At the same time, it was also challenging because we had to readjust quickly to academic life after a disrupted schedule.
+After the campus lockdown and the vacation period caused by the Iran-Israel conflict, our universities finally reopened, allowing us to return to physical classes. This transition back to campus life was both relieving and challenging at the same time. After spending time away from regular academic activities, it took some effort to readjust to the routine of attending classes, focusing on studies, and managing academic responsibilities. However, this return was not entirely smooth, as we were already approaching an important phase of the semester.
 
-The timing made the transition even more intense. Within only one week of reopening, our midterm examinations were scheduled to begin. That created immediate pressure, because students had limited time to revise and organize themselves after the interruption.
+Within just one week of reopening, our midterm examinations were scheduled to begin. This created a sense of urgency among students, as we had limited time to revise and prepare. During this week, teachers started conducting pre-midterm quizzes, which are usually taken before exams as part of internal assessment. However, due to time constraints and the disruption caused by the earlier lockdown, only some teachers were able to conduct these quizzes, while others could not. This created an unusual situation where some of our quizzes were completed before the midterms, while the remaining ones were postponed and planned to be taken along with or after the midterm exams.
 
-During this same period, teachers also started conducting pre-midterm quizzes. Because of time limitations and the disruption caused earlier, some instructors were able to complete these quizzes before midterms, while others postponed them. As a result, we had to prepare not only for our midterm papers, but also for pending quizzes at nearly the same time.
+This situation increased the academic pressure significantly. Students were not only required to prepare for their midterm exams but also had to stay ready for pending quizzes at the same time. Managing both together was quite challenging, as each subject required proper attention, revision, and practice. It became difficult to balance everything within a limited time frame, especially after the disruption in our academic schedule. Despite these difficulties, I tried to stay organized and focused, making study plans to cover both quizzes and exams effectively.
 
-This overlap made academic management more difficult. Each subject required attention, revision, and practice, but the compressed timeline made it hard to give every course equal space. I had to become more deliberate with my planning and try to cover both quizzes and exam preparation together.
+Another major change during this period was the new academic schedule introduced by the government. According to this policy, physical classes were limited to four days a week (Monday to Thursday), while Friday classes were shifted to online mode. This hybrid system created a new learning environment where students had to manage both on-campus and online classes simultaneously. Adjusting to this system required flexibility, as we had to switch between physical attendance and online learning regularly.
 
-Another significant change during this time was the introduction of a hybrid schedule. According to the updated academic routine, physical classes were limited to four days a week, while Friday classes moved online. This meant students had to adapt to two learning modes at once and switch regularly between classroom attendance and digital participation.
-
-Although the hybrid model created some challenges, it also made me more flexible. I had to become more organized with my notes, time, and assignments because the structure of each week was no longer completely uniform. That adjustment taught me how important consistency is when routines keep changing.
-
-Despite the pressure of reopening, pending quizzes, and midterm preparation, this phase of the semester strengthened my academic resilience. It reminded me that university life is not always predictable, and that students often have to respond to changing conditions while still maintaining performance.
-
-Overall, this experience became another valuable part of my journey. It showed me that discipline is not only about studying when circumstances are easy, but also about staying committed when routines are uncertain and expectations remain high.
+Although these circumstances created several challenges, they also taught me important lessons about time management, adaptability, and consistency. I learned how to cope with academic pressure, manage multiple tasks at once, and stay committed to my studies despite uncertainties. This phase of my university journey highlighted the importance of being prepared for unexpected changes and maintaining a strong work ethic even in difficult situations. Overall, it was a demanding yet valuable experience that contributed to my personal and academic growth.

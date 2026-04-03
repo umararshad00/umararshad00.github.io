@@ -1,27 +1,24 @@
 ---
 title: "Project Development Phase and Practical Implementation of Machine Learning"
 layout: post
-subtitle: "This stage moved my learning from theory into hands-on project work with machine learning models, coding libraries, and data visualization."
+sequence: 3
+subtitle: "Turning machine learning concepts into hands-on practice through models, libraries, and visualization."
+image: "https://images.pexels.com/photos/5530483/pexels-photo-5530483.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+image_alt: "Students working together on laptops in a university setting"
 topics:
-  - Machine Learning Project
+  - Project Work
   - Python Libraries
-  - Practical Skills
+  - Practical Learning
 points:
-  - Starting the machine learning project and understanding core models
-  - Learning coding tools and libraries such as Pandas, NumPy, and Scikit-learn
+  - Starting the Machine Learning project and understanding core models (Decision Tree & Logistic Regression)
+  - Learning coding tools and libraries (Pandas, NumPy, Scikit-learn)
   - Applying visualization techniques and practical coding skills
 ---
 
-After the midterm examinations, the semester entered a more practical and engaging phase. This was the stage when our machine learning project began to take shape, and my learning shifted from theory alone to implementation. It was one of the most productive parts of my academic journey because it demanded both understanding and application.
+After the midterm examinations, the tenth week of our semester marked the beginning of a more practical and engaging phase of our academic journey. This was the stage where we started working seriously on our Machine Learning project, which required not only theoretical understanding but also strong practical implementation skills. At the beginning of this phase, our main focus was on learning machine learning models in detail. One of the primary models we studied was the Decision Tree algorithm. We explored this model thoroughly, including its structure, working principles, and decision-making process. To strengthen our understanding, we also solved numerical problems through hand calculations, which helped us grasp the logic behind how the algorithm splits data and makes predictions. Along with Decision Trees, we were also introduced to Logistic Regression, where we gained a basic understanding of how it is used for classification problems. This combination of conceptual and numerical learning played an important role in building our foundation in machine learning.
 
-At the start of this phase, our focus was on machine learning models in greater detail. One of the main models we studied was the Decision Tree algorithm. We explored how it works, how it splits data, and how decisions are made during prediction. Solving numerical problems by hand helped me understand the logical structure behind the model instead of treating it as a black box.
+Once we had a clear understanding of the models, we moved towards the coding phase of our project. This was a crucial step because it allowed us to implement what we had learned theoretically. We started learning coding step by step, beginning with the Pandas library, which we studied in detail. Pandas helped us understand how to handle datasets, clean data, and perform data manipulation efficiently. It became one of the most important tools for our project work. After that, we were introduced to NumPy, where we learned basic operations related to arrays and numerical computations. Although we did not study NumPy in as much depth as Pandas, it still gave us a useful understanding of how data is processed in machine learning tasks. We also explored Scikit-learn, which is a powerful library used for implementing machine learning models. We became familiar with its basic functions and even explored its official documentation to understand how different algorithms are applied in real-world scenarios.
 
-Along with Decision Trees, we were also introduced to Logistic Regression. Even though it was a basic introduction, it gave me a useful understanding of classification problems and helped broaden my perspective on how different models solve different types of tasks. This theoretical foundation was important before moving into coding.
+As we progressed further, we learned about data visualization, which is an essential part of analyzing and presenting data. In this stage, we practiced writing proper code for creating different types of charts and graphs. We learned how to visualize data using common chart types such as bar charts, line graphs, scatter plots, histograms, and pie charts. Understanding these visualizations helped us interpret patterns and trends in the dataset more effectively. We focused on memorizing and practicing the code required to generate these charts so that we could confidently apply them in our project.
 
-Once the concepts became clearer, we moved toward practical implementation. We started coding step by step and focused first on Pandas, which became one of the most important tools in our work. Through Pandas, I learned how to load datasets, inspect data, clean records, and manipulate information in a structured way.
-
-After that, we were introduced to NumPy, where we learned basic operations related to arrays and numerical processing. Although our work with NumPy was not as detailed as Pandas, it still helped me understand how machine learning workflows depend on efficient numerical handling. We also explored Scikit-learn, which introduced us to practical model implementation through real code and documentation.
-
-Another major part of this stage was data visualization. We practiced writing code for different charts and graphs, including bar charts, line graphs, scatter plots, histograms, and pie charts. Learning these visualizations helped me understand how data can be presented clearly and how patterns can be observed before model building even begins.
-
-This stage of the semester was highly skill-oriented. It improved my coding confidence, strengthened my understanding of machine learning concepts, and taught me how theory becomes meaningful when it is applied to actual datasets. Although managing several concepts at the same time required effort, the experience made me more capable and more interested in practical data work.
+Overall, this phase of the semester was highly productive and skill-oriented. It transformed our learning from theory-based understanding to practical implementation. Working on the machine learning project not only improved my coding skills but also enhanced my ability to analyze data and apply algorithms effectively. Although managing multiple concepts at the same time required consistent effort and focus, it ultimately helped me grow as a learner and prepared me for more advanced topics in the future.
