@@ -1,7 +1,6 @@
 ---
 title: "Data Visualization, Model Evaluation, and Dataset Selection"
 layout: post
-date: 2025-10-27
 subtitle: "Learning how to visualize data, evaluate models, and choose the right dataset helped me move from basic machine learning concepts to practical decision-making."
 topics:
   - Data Visualization
