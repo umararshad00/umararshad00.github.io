@@ -1,11 +1,9 @@
 title: "Umar Arshad"
 author: "Umar Arshad"
-description: "Computer Engineering student sharing academic growth, personal learning experiences, and technical reflections."
+tagline: "Computer Engineering Student"
+description: "A personal website built with Jekyll to share my profile, projects, learning notes, and blog posts."
 email: "rumarrajput2@gmail.com"
 github_url: "https://github.com/umararshad00"
-url: "https://umararshad00.github.io"
-baseurl: ""
-encoding: "utf-8"
 location: "Pakistan"
 education: "BS Computer Engineering"
 permalink: /blog/:title/
@@ -20,29 +18,25 @@ show_minimal: false
 
 navigation:
   - {file: "index.html", title: "Home"}
-  - {file: "blog.md", title: "Blog"}
-  - {file: "contact.md", title: "Contact"}
   - {file: "about.md", title: "About"}
+  - {file: "contact.md", title: "Contact"}
+  - {file: "blog.md", title: "Blog"}
 
 external:
-  - {title: "Mail", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
-  - {title: "Github", icon: github, url: "https://github.com/umararshad00"}
+  - {title: "Email", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
+  - {title: "GitHub", icon: github, url: "https://github.com/umararshad00"}
 
-markdown: kramdown
+footer:
+  - {title: "Email Me", url: "mailto:rumarrajput2@gmail.com"}
+  - {title: "GitHub Profile", url: "https://github.com/umararshad00"}
+  - {title: "RSS Feed", url: "/feed.xml"}
+
+exclude:
+  - README.md
+  - UNLICENSE.txt
+  - Gemfile
+  - Gemfile.lock
+  - site-backup-20260403
 
 plugins:
   - jekyll-feed
-
-exclude:
-  - "*.gemspec"
-  - LICENSE.md
-  - CONTRIBUTING.md
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - UNLICENSE.txt
-  - site-backup-20260403
-  - site-backup-20260403-forty
-  - site-backup-20260403-contrast
-  - _forty_template
-  - _contrast_template

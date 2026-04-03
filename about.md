@@ -2,31 +2,32 @@
 layout: page
 title: About
 permalink: /about/
-subtitle: "A concise look at my academic direction, technical interests, and learning journey."
-description: "About Umar Arshad, a computer engineering student exploring Python, machine learning, databases, and practical software development."
+kicker: Profile
+subtitle: "A short introduction to my background, skills, and learning direction."
+description: "About Umar Arshad, a computer engineering student focused on software, web development, and machine learning basics."
 ---
 
-I am **{{ site.title }}**, a **computer engineering student** based in **{{ site.location }}**. My goal is to keep improving through consistent study, practical implementation, and reflective writing about what I learn.
+I am **{{ site.title }}**, a **{{ site.tagline | downcase }}** based in **{{ site.location }}**. I enjoy building my technical skills step by step and turning what I learn into practical work.
 
-## Academic direction
+## Education
 
-I am currently pursuing **{{ site.education }}**. University life has helped me understand the value of discipline, regular preparation, and applying theory through labs, projects, and technical assignments.
+I am currently pursuing **{{ site.education }}**. My studies are helping me build a solid understanding of engineering concepts while also encouraging me to work on projects that improve my confidence and technical ability.
 
-## Technical interests
+## Skills and interests
 
-My current work and interests are centered around:
+My current interests are centered around:
 
-- Programming fundamentals with Python
-- Machine learning concepts and model evaluation
-- Database systems with MySQL and SQL queries
-- Frontend fundamentals with HTML, CSS, and Markdown
+- Software development with C#
+- Database work with SQL
+- Frontend fundamentals with HTML and CSS
+- Writing and documentation with Markdown
 - Version control with Git and GitHub
-- Clear technical documentation and project reporting
+- Beginner-level exploration of machine learning concepts
 
-## How I learn
+## How I like to work
 
-I prefer learning through a balance of theory and implementation. Understanding concepts in class is important, but I learn best when I also apply them through lab work, coding practice, project development, and reflective blog writing.
+I prefer learning through a combination of study and practice. Reading concepts is important, but building small projects helps me understand how things actually work. That is why I keep improving my portfolio, writing posts, and experimenting with new ideas as I grow.
 
-## What this website documents
+## What this website is for
 
-This website gives me a structured place to present who I am, share essential profile information, provide contact details, and document my academic journey separately through the blog. The homepage stays intentionally simple, while the blog captures the deeper learning experiences behind my progress.
+This website gives me one place to present who I am, share my background, provide contact details, and publish blog posts separately in a clean and organized way.

@@ -1,13 +1,13 @@
 # umararshad00.github.io
 
-Personal Jekyll website for Umar Arshad.
+Personal Jekyll website for Umar Rajput.
 
 ## Site structure
 
 - Home
-- Blog
-- Contact
 - About
+- Contact Us
+- Blog
 
 ## Notes
 
