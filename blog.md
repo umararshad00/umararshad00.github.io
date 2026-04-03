@@ -47,16 +47,15 @@ description: "University journey, academic reflections, and technical learning n
       {% endif %}
       <a class="button-primary" href="{{ featured.url | relative_url }}">Read featured post</a>
     </div>
+    {% if featured.points %}
     <aside class="story-aside">
-      <p class="post-date">{{ featured.date | date: site.date_format }}</p>
-      {% if featured.points %}
       <ul class="story-points">
         {% for point in featured.points %}
           <li>{{ point }}</li>
         {% endfor %}
       </ul>
-      {% endif %}
     </aside>
+    {% endif %}
   </section>
   {% endif %}
 
@@ -68,7 +67,6 @@ description: "University journey, academic reflections, and technical learning n
   <section class="blog-grid rich-blog-grid">
     {% for post in site.posts offset: 1 %}
       <article class="post-preview">
-        <p class="post-date">{{ post.date | date: site.date_format }}</p>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {% if post.subtitle %}
           <p class="post-subtitle">{{ post.subtitle }}</p>
