@@ -23,7 +23,10 @@ description: "University journey, academic reflections, and technical learning n
       <strong>Python, ML, DBMS</strong>
       <span>Core learning </span>
     </div>
-    
+    <div class="stat-chip">
+      <strong>Univesity Life Journey</strong>
+      <span>Learning lessons of life</span>
+    </div>
   </div>
 </section>
 
