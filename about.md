@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 kicker: Profile
 subtitle: "A concise look at my academic direction, technical interests, and learning journey."
-description: "About Umar Rajput, a computer engineering student exploring Python, machine learning, databases, and practical software development."
+description: "About Umar Arshad, a computer engineering student exploring Python, machine learning, databases, and practical software development."
 ---
 
 I am **{{ site.title }}**, a **{{ site.tagline | downcase }}** based in **{{ site.location }}**. My goal is to keep improving through consistent study, practical implementation, and reflective writing about what I learn.

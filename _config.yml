@@ -1,5 +1,5 @@
-title: "Umar Rajput"
-author: "Umar Rajput"
+title: "Umar Arshad"
+author: "Umar Arshad"
 tagline: "Computer Engineering Student"
 description: "A personal website built with Jekyll to share my profile, projects, learning notes, and blog posts."
 email: "rumarrajput2@gmail.com"
@@ -18,18 +18,13 @@ show_minimal: false
 
 navigation:
   - {file: "index.html", title: "Home"}
-  - {file: "about.md", title: "About"}
-  - {file: "contact.md", title: "Contact"}
   - {file: "blog.md", title: "Blog"}
+  - {file: "contact.md", title: "Contact"}
+  - {file: "about.md", title: "About"}
 
 external:
   - {title: "Email", icon: envelope, url: "mailto:rumarrajput2@gmail.com"}
   - {title: "GitHub", icon: github, url: "https://github.com/umararshad00"}
-
-footer:
-  - {title: "Email Me", url: "mailto:rumarrajput2@gmail.com"}
-  - {title: "GitHub Profile", url: "https://github.com/umararshad00"}
-  - {title: "RSS Feed", url: "/feed.xml"}
 
 exclude:
   - README.md

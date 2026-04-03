@@ -3,7 +3,7 @@ layout: default
 title: "Blog"
 permalink: /blog/
 body_class: blog-page
-description: "University journey, academic reflections, and technical learning notes by Umar Rajput."
+description: "University journey, academic reflections, and technical learning notes by Umar Arshad."
 ---
 
 {% assign featured = site.posts | first %}

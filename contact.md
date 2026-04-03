@@ -4,7 +4,7 @@ title: Contact Us
 permalink: /contact/
 kicker: Get in touch
 subtitle: "The easiest way to reach me is by email."
-description: "Contact page for Umar Rajput."
+description: "Contact page for Umar Arshad."
 ---
 
 <div class="contact-stack">
