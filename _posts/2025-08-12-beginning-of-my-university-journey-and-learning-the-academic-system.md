@@ -1,7 +1,6 @@
 ---
 title: "Beginning of My University Journey and Learning the Academic System"
 layout: post
-date: 2025-08-12
 subtitle: "My first weeks at university introduced me to a new academic environment, continuous assessment, and Programming Fundamentals with Python."
 topics:
   - University Life
