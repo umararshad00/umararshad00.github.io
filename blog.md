@@ -21,12 +21,9 @@ description: "University journey, academic reflections, and technical learning n
     </div>
     <div class="stat-chip">
       <strong>Python, ML, DBMS</strong>
-      <span>Core learning themes</span>
+      <span>Core learning </span>
     </div>
-    <div class="stat-chip">
-      <strong>Static home</strong>
-      <span>Writing kept separate from the front page</span>
-    </div>
+    
   </div>
 </section>
 
