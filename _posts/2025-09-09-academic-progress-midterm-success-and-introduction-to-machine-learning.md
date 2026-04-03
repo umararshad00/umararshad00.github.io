@@ -1,7 +1,6 @@
 ---
 title: "Academic Progress, Midterm Success, and Introduction to Machine Learning"
 layout: post
-date: 2025-09-09
 subtitle: "From an early quiz setback to stronger preparation and the beginning of machine learning studies, this phase taught me how progress is built."
 topics:
   - Midterm Preparation
