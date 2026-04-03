@@ -7,7 +7,7 @@ image: "/assets/images/universities/nust-main.jpg"
 image_alt: "National University of Sciences and Technology campus in Islamabad"
 image_caption: "National University of Sciences and Technology, Islamabad"
 image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Nust.jpg"
+image_credit_url: "https://images.stockcake.com/public/9/7/f/97faad38-3199-4bf1-bc27-bfcf841b3158_large/study-group-session-stockcake.jpg"
 topics:
   - Project Work
   - Python Libraries
