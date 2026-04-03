@@ -7,7 +7,7 @@ image: "/assets/images/universities/punjab-old-campus-alt.jpg"
 image_alt: "University of the Punjab campus building in Lahore"
 image_caption: "University of the Punjab Campus, Lahore"
 image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:University_of_the_Punjab-old_campus.jpg"
+image_credit_url: "[https://commons.wikimedia.org/wiki/File:University_of_the_Punjab-old_campus.jpg](https://stockcake.com/i/group-study-session_1228451_939185)"
 topics:
   - Project Work
   - Python Libraries
