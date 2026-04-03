@@ -1,7 +1,6 @@
 ---
 title: "Learning Database Management and Practical Implementation Using MySQL"
 layout: post
-date: 2026-01-29
 subtitle: "Working with MySQL Workbench, SQL queries, and ER diagrams helped me understand how data is structured and managed in real systems."
 topics:
   - Database Systems
