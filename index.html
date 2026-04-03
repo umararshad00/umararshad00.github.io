@@ -1,60 +1,10 @@
 ---
+layout: home
 title: Home
-layout: default
 permalink: /
-body_class: home-page
 description: "Homepage for Umar Arshad with essential profile information."
+landing-title: "Umar Arshad"
+show_tile: false
 ---
 
-<section class="home-hero">
-  <div class="home-copy">
-    <p class="eyebrow">Homepage</p>
-    <h1>{{ site.title }}</h1>
-    <p class="lead">Computer Engineering student focused on Python, machine learning, database systems, and practical academic growth.</p>
-    <p class="home-note">This page only contains the necessary information. All detailed reflections, university experiences, and long-form writing are kept inside the blog section.</p>
-
-    <div class="button-row">
-      <a class="button-primary" href="{{ '/about/' | relative_url }}">About Me</a>
-      <a class="button-secondary" href="{{ '/blog/' | relative_url }}">View Blog</a>
-      <a class="button-secondary" href="{{ '/contact/' | relative_url }}">Contact</a>
-    </div>
-
-    <ul class="home-tags">
-      <li>{{ site.education }}</li>
-      <li>{{ site.location }}</li>
-      <li>Python and Programming Fundamentals</li>
-      <li>Machine Learning</li>
-      <li>Database Systems</li>
-    </ul>
-  </div>
-
-  <aside class="profile-panel accent-panel">
-    <span class="profile-badge">UA</span>
-    <dl class="fact-list">
-      <div>
-        <dt>Name</dt>
-        <dd>{{ site.title }}</dd>
-      </div>
-      <div>
-        <dt>Education</dt>
-        <dd>{{ site.education }}</dd>
-      </div>
-      <div>
-        <dt>Location</dt>
-        <dd>{{ site.location }}</dd>
-      </div>
-      <div>
-        <dt>Email</dt>
-        <dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
-      </div>
-      <div>
-        <dt>GitHub</dt>
-        <dd><a href="{{ site.github_url }}">github.com/umararshad00</a></dd>
-      </div>
-      <div>
-        <dt>Current Focus</dt>
-        <dd>Python, machine learning, and database systems</dd>
-      </div>
-    </dl>
-  </aside>
-</section>
+<p>I am a <strong>{{ site.education }}</strong> student based in <strong>{{ site.location }}</strong>, focused on <strong>Python, machine learning, database systems, and practical academic growth</strong>. This website highlights my profile, shares important contact information, and keeps my longer reflections organized in the blog section.</p>

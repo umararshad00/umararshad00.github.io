@@ -1,0 +1,70 @@
+<!-- Contact -->
+<section id="contact">
+  <div class="inner">
+    <section>
+      <header class="major">
+        <h3>Let&apos;s Connect</h3>
+      </header>
+      <p>If you would like to discuss a project, an academic opportunity, or simply connect, you can reach me through email or visit the contact page for details.</p>
+      <ul class="actions">
+        <li><a href="{{ '/contact/' | relative_url }}" class="button next">Contact Me</a></li>
+      </ul>
+    </section>
+    <section class="split">
+      <section>
+        <div class="contact-method">
+          <span class="icon alt fa-envelope"></span>
+          <h3>Email</h3>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+      </section>
+      <section>
+        <div class="contact-method">
+          <span class="icon alt fa-github"></span>
+          <h3>GitHub</h3>
+          <a href="{{ site.github_url }}">github.com/umararshad00</a>
+        </div>
+      </section>
+      <section>
+        <div class="contact-method">
+          <span class="icon alt fa-home"></span>
+          <h3>Location</h3>
+          <span>{{ site.location }}</span>
+        </div>
+      </section>
+    </section>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="inner">
+    <ul class="icons">
+      {% for key_value in site.socials %}
+        {% if key_value[1] %}
+        <li>
+          <a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+            <span class="label">{{ key_value[0] }}</span>
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul class="copyright">
+      <li>&copy; {{ site.title }}</li>
+      <li>Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+      <li>Jekyll integration: <a href="https://github.com/andrewbanchich/forty-jekyll-theme" target="_blank" rel="noopener noreferrer">Forty Jekyll Theme</a></li>
+    </ul>
+  </div>
+</footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{ "assets/js/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "assets/js/jquery.scrolly.min.js" | relative_url }}"></script>
+<script src="{{ "assets/js/jquery.scrollex.min.js" | relative_url }}"></script>
+<script src="{{ "assets/js/skel.min.js" | relative_url }}"></script>
+<script src="{{ "assets/js/util.js" | relative_url }}"></script>
+<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | relative_url }}"></script><![endif]-->
+<script src="{{ "assets/js/main.js" | relative_url }}"></script>

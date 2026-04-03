@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
-<article class="content-card">
-  <header class="page-heading">
-    <p class="eyebrow">{{ page.kicker | default: site.tagline }}</p>
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}
-      <p class="lead">{{ page.subtitle }}</p>
-    {% endif %}
-  </header>
-  <div class="page-content">
-    {{ content }}
-  </div>
-</article>
+
+<div id="main" class="alt">
+  <section id="one">
+    <div class="inner">
+      <header class="major">
+        <h1>{{ page.title }}</h1>
+      </header>
+      {% if page.subtitle %}
+      <p class="meta-intro">{{ page.subtitle }}</p>
+      {% endif %}
+      {% if page.image %}
+      <span class="image main"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" /></span>
+      {% endif %}
+      {{ content }}
+    </div>
+  </section>
+</div>

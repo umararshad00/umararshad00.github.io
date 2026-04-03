@@ -2,43 +2,46 @@
 layout: default
 ---
 
-<article class="content-card post-full">
-  <header class="page-heading">
-    <p class="eyebrow">Blog Post</p>
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}
-      <p class="lead">{{ page.subtitle }}</p>
-    {% endif %}
-    {% if page.topics %}
-    <div class="tag-list">
-      {% for topic in page.topics %}
-        <span class="tag-pill">{{ topic }}</span>
-      {% endfor %}
+<div id="main" class="alt">
+  <section id="one">
+    <div class="inner">
+      <header class="major">
+        <h1>{{ page.title }}</h1>
+      </header>
+      {% if page.subtitle %}
+      <p class="meta-intro">{{ page.subtitle }}</p>
+      {% endif %}
+      {% if page.image %}
+      <span class="image main"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" /></span>
+      {% endif %}
+      {% if page.topics %}
+      <ul class="topic-badges">
+        {% for topic in page.topics %}
+        <li>{{ topic }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if page.points %}
+      <div class="box">
+        <h3>In this post</h3>
+        <ul class="summary-points">
+          {% for point in page.points %}
+          <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {{ content }}
+      {% if page.next.url or page.previous.url %}
+      <ul class="actions post-actions">
+        {% if page.next.url %}
+        <li><a href="{{ page.next.url | relative_url }}" class="button">Previous Post</a></li>
+        {% endif %}
+        {% if page.previous.url %}
+        <li><a href="{{ page.previous.url | relative_url }}" class="button special">Next Post</a></li>
+        {% endif %}
+      </ul>
+      {% endif %}
     </div>
-    {% endif %}
-  </header>
-  {% if page.points %}
-  <section class="post-summary-card">
-    <h2>In this reflection</h2>
-    <ul class="summary-list">
-      {% for point in page.points %}
-        <li>{{ point }}</li>
-      {% endfor %}
-    </ul>
   </section>
-  {% endif %}
-  <div class="page-content">
-    {{ content }}
-  </div>
-</article>
-
-{% if page.next.url or page.previous.url %}
-<nav class="post-navigation">
-  {% if page.next.url %}
-    <a href="{{ page.next.url | relative_url }}">&larr; {{ page.next.title }}</a>
-  {% endif %}
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} &rarr;</a>
-  {% endif %}
-</nav>
-{% endif %}
+</div>
