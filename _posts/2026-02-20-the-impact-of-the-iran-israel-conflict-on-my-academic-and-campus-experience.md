@@ -5,7 +5,7 @@ sequence: 9
 subtitle: "Adapting my studies and campus routine during a period of regional disruption and uncertainty."
 image: "/assets/images/universities/islamia-college-peshawar.jpg"
 image_alt: "Islamia College University campus building in Peshawar"
-image_caption: "Islamia College University, Peshawar"
+image_caption: "Islamia College University Campus, Peshawar"
 image_credit: "Photo via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan.jpg"
 topics:

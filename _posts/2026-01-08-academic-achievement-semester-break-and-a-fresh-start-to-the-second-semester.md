@@ -3,11 +3,11 @@ title: "Academic Achievement, Semester Break, and a Fresh Start to the Second Se
 layout: post
 sequence: 7
 subtitle: "Moving from final exam success into a well-earned break and a motivated second semester."
-image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library building in Islamabad"
-image_caption: "Quaid-i-Azam University, Islamabad"
-image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
+image: "/assets/images/universities/punjab-old-campus.jpg"
+image_alt: "Historic old campus of the University of the Punjab in Lahore"
+image_caption: "Punjab University Old Campus, Lahore"
+image_credit: "Photo by Bahawal sher sipra via Wikimedia Commons"
+image_credit_url: "https://commons.wikimedia.org/wiki/File:Punjab_University_Old_Campus_2.jpg"
 topics:
   - GPA
   - Semester Break

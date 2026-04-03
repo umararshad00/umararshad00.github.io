@@ -371,9 +371,10 @@ nav
 
 .blog-list
   display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
   gap: 1.5rem
   margin-top: 1.4rem
-  max-width: 56rem
+  align-items: start
 
 .post-preview
   display: block
@@ -400,6 +401,10 @@ nav
   object-fit: cover
 
 .post-preview-copy
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  gap: 0.2rem
   padding: 1.35rem 1.35rem 1.45rem
 
 .post-sequence
@@ -425,10 +430,13 @@ nav
 
 .compact-points
   color: var(--text)
-  margin: 0
+  margin: 0 0 0.9rem
 
 .compact-points li
   margin-bottom: 0.35rem
+
+.post-preview .text-link
+  margin-top: auto
 
 .post-full
   max-width: 60rem
@@ -531,7 +539,7 @@ nav
     position: static
   .header-menus
     justify-content: flex-start
-  .info-grid, .quick-grid, .contact-grid
+  .info-grid, .quick-grid, .contact-grid, .blog-list
     grid-template-columns: 1fr
 
 @media (max-width: 680px)
