@@ -3,11 +3,10 @@ title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "/assets/images/universities/uet-database-wing.jpg"
-image_alt: "A technical academic wing at UET Lahore matching database management and practical implementation"
-image_caption: "A technical systems-oriented academic wing at UET Lahore"
-image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
+image: "/assets/images/post-scenes/computer-lab.jpg"
+image_alt: "Students working in a computer lab during a practical technical class"
+image_caption: "A computer lab environment that matches database practice and MySQL implementation"
+image_credit: "Photo via Pexels"
 topics:
   - Databases
   - MySQL

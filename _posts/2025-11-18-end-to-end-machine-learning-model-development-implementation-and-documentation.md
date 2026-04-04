@@ -3,11 +3,10 @@ title: "End-to-End Machine Learning Model Development, Implementation, and Docum
 layout: post
 sequence: 5
 subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
-image: "/assets/images/universities/uet-ee.jpg"
-image_alt: "Engineering academic building at UET Lahore matching end-to-end machine learning development and implementation"
-image_caption: "An engineering-focused academic block at UET Lahore"
-image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
+image: "/assets/images/post-scenes/model-laptop-notes.jpg"
+image_alt: "A student working on a laptop with notes while building and documenting a technical project"
+image_caption: "A laptop-and-notes setup that matches end-to-end model building and documentation"
+image_credit: "Photo via Pexels"
 topics:
   - Regression Project
   - Model Training

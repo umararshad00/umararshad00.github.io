@@ -3,11 +3,10 @@ title: "Academic Achievement, Semester Break, and a Fresh Start to the Second Se
 layout: post
 sequence: 7
 subtitle: "Moving from final exam success into a well-earned break and a motivated second semester."
-image: "/assets/images/universities/punjab-freshstart-view.jpg"
-image_alt: "A calmer historic Punjab University campus view representing achievement, rest, and a fresh start"
-image_caption: "A calm fresh-start campus view at Punjab University, Lahore"
-image_credit: "Photo by Bahawal sher sipra via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Punjab_University_Old_Campus_2.jpg"
+image: "/assets/images/post-scenes/fresh-start-class.jpg"
+image_alt: "Students seated in a classroom beginning a fresh academic phase"
+image_caption: "A fresh-start classroom scene that suits academic success and the beginning of a new semester"
+image_credit: "Photo via Pexels"
 topics:
   - GPA
   - Semester Break

@@ -3,11 +3,10 @@ title: "Academic Progress, Midterm Success, and Introduction to Machine Learning
 layout: post
 sequence: 2
 subtitle: "How early quiz lessons, midterm preparation, and machine learning shaped my academic confidence."
-image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library in Islamabad representing study progress, preparation, and learning"
-image_caption: "A study-focused library view at Quaid-i-Azam University, Islamabad"
-image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
+image: "/assets/images/post-scenes/study-group.jpg"
+image_alt: "Students working seriously during a study session before academic assessments"
+image_caption: "A focused study session that matches quiz preparation, midterms, and academic progress"
+image_credit: "Photo via Pexels"
 topics:
   - Academic Growth
   - Midterms

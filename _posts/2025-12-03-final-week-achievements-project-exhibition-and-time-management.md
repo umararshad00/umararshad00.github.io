@@ -3,11 +3,10 @@ title: "Final Week Achievements, Project Exhibition, and Time Management"
 layout: post
 sequence: 6
 subtitle: "Presenting my project, managing pressure, and preparing for finals in the semester's final stretch."
-image: "/assets/images/universities/punjab-exhibition-front.jpg"
-image_alt: "A formal front-facing Punjabi university building view suited to exhibition, presentation, and final-week achievement"
-image_caption: "A presentation-style campus front at the University of the Punjab, Lahore"
-image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:University_of_the_Punjab-old_campus.jpg"
+image: "/assets/images/post-scenes/presentation-class.jpg"
+image_alt: "Students interacting in a classroom during a presentation or project discussion"
+image_caption: "A presentation-style classroom scene that fits exhibition week and final tasks"
+image_credit: "Photo via Pexels"
 topics:
   - Final Week
   - Project Presentation

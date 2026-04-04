@@ -3,11 +3,10 @@ title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
 sequence: 10
 subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
-image: "/assets/images/universities/nust-reopening-view.jpg"
-image_alt: "A focused NUST campus return view in Islamabad matching reopening and midterm preparation"
-image_caption: "A campus-return view at NUST, Islamabad"
-image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Nust.jpg"
+image: "/assets/images/post-scenes/midterm-return-class.jpg"
+image_alt: "Students back in class preparing with laptops and notes after returning to campus"
+image_caption: "A return-to-class scene that matches campus reopening and midterm preparation"
+image_credit: "Photo via Pexels"
 topics:
   - Campus Reopening
   - Midterms

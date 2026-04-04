@@ -3,11 +3,10 @@ title: "Beginning of My University Journey and Learning the Academic System"
 layout: post
 sequence: 1
 subtitle: "A reflective start to university life, continuous assessment, and my first Python classes."
-image: "/assets/images/universities/islamia-college-peshawar.jpg"
-image_alt: "A grand Pakistani university campus view representing the beginning of university life at Islamia College University, Peshawar"
-image_caption: "A first-journey campus view at Islamia College University, Peshawar"
-image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://commons.wikimedia.org/wiki/File:Islamia_College_Peshawar_(Public_Sector_University),_Khyber_Pakhtunkhwa,_Pakistan.jpg"
+image: "/assets/images/post-scenes/intro-classroom.jpg"
+image_alt: "Students sitting in a university classroom during an early academic session"
+image_caption: "A first-week classroom setting with students settling into university life"
+image_credit: "Photo via Pexels"
 topics:
   - University Life
   - Programming Fundamentals
