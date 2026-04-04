@@ -3,11 +3,11 @@ title: "Project Development Phase and Practical Implementation of Machine Learni
 layout: post
 sequence: 3
 subtitle: "Turning machine learning concepts into hands-on practice through models, libraries, and visualization."
-image: "/assets/images/universities/nust-main.jpg"
+image: "/assets/images/universities/groupstudy.jpg"
 image_alt: "National University of Sciences and Technology campus in Islamabad"
 image_caption: "National University of Sciences and Technology, Islamabad"
 image_credit: "Photo via Wikimedia Commons"
-image_credit_url: "https://images.stockcake.com/public/9/7/f/97faad38-3199-4bf1-bc27-bfcf841b3158_large/study-group-session-stockcake.jpg"
+image_credit_url: "https://media.istockphoto.com/id/1135346386/photo/female-mentor-teaching-employees-group-analyzing-online-project-explaining-strategy.jpg?s=612x612&w=0&k=20&c=TvzTFwfpWjE5DvClsjUSVq0YU8JoCHkVR63y8wKgLZM="
 topics:
   - Project Work
   - Python Libraries
