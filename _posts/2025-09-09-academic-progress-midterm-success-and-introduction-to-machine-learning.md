@@ -4,8 +4,8 @@ layout: post
 sequence: 2
 subtitle: "How early quiz lessons, midterm preparation, and machine learning shaped my academic confidence."
 image: "/assets/images/universities/qau-library.jpg"
-image_alt: "Quaid-i-Azam University library building in Islamabad"
-image_caption: "Quaid-i-Azam University Library, Islamabad"
+image_alt: "Quaid-i-Azam University library in Islamabad representing study progress, preparation, and learning"
+image_caption: "A study-focused library view at Quaid-i-Azam University, Islamabad"
 image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
 topics:

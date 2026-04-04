@@ -3,9 +3,9 @@ title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "/assets/images/universities/uet-ee-detail.jpg"
-image_alt: "Closer view of the Department of Electrical Engineering at UET Lahore"
-image_caption: "UET Lahore Academic Block"
+image: "/assets/images/universities/uet-database-wing.jpg"
+image_alt: "A technical academic wing at UET Lahore matching database management and practical implementation"
+image_caption: "A technical systems-oriented academic wing at UET Lahore"
 image_credit: "Photo via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
 topics:

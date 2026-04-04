@@ -3,9 +3,9 @@ title: "Final Week Achievements, Project Exhibition, and Time Management"
 layout: post
 sequence: 6
 subtitle: "Presenting my project, managing pressure, and preparing for finals in the semester's final stretch."
-image: "/assets/images/universities/punjab-old-campus-alt.jpg"
-image_alt: "University of the Punjab campus building in Lahore"
-image_caption: "University of the Punjab Campus, Lahore"
+image: "/assets/images/universities/punjab-exhibition-front.jpg"
+image_alt: "A formal front-facing Punjabi university building view suited to exhibition, presentation, and final-week achievement"
+image_caption: "A presentation-style campus front at the University of the Punjab, Lahore"
 image_credit: "Photo via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:University_of_the_Punjab-old_campus.jpg"
 topics:

@@ -4,8 +4,8 @@ layout: post
 sequence: 5
 subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
 image: "/assets/images/universities/uet-ee.jpg"
-image_alt: "Department of Electrical Engineering building at UET Lahore"
-image_caption: "UET Lahore, Department of Electrical Engineering"
+image_alt: "Engineering academic building at UET Lahore matching end-to-end machine learning development and implementation"
+image_caption: "An engineering-focused academic block at UET Lahore"
 image_credit: "Photo via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:UET_Department_of_Electrical_Engineering.jpg"
 topics:

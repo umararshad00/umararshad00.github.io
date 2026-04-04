@@ -4,8 +4,8 @@ layout: post
 sequence: 4
 subtitle: "Exploring charts, evaluation metrics, and dataset selection as part of practical machine learning work."
 image: "/assets/images/universities/qau-library-facade.jpg"
-image_alt: "Facade view of Quaid-i-Azam University library in Islamabad"
-image_caption: "Quaid-i-Azam University Library Facade, Islamabad"
+image_alt: "Research-focused library facade at Quaid-i-Azam University in Islamabad matching data analysis and evaluation"
+image_caption: "A research-style library facade at Quaid-i-Azam University, Islamabad"
 image_credit: "Photo by Khalid Mahmood via Wikimedia Commons"
 image_credit_url: "https://commons.wikimedia.org/wiki/File:Quaid-i-Azam_University_Library.JPG"
 topics:
