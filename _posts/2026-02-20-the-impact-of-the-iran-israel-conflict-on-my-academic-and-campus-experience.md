@@ -3,9 +3,9 @@ title: "The Impact of Iran-Israel Conflict on My Academic and Campus Experience"
 layout: post
 sequence: 9
 subtitle: "Adapting my studies and campus routine during a period of regional disruption and uncertainty."
-image: "/assets/images/post-scenes/online-learning.jpg"
-image_alt: "Students using laptops in a lecture setting that suggests online or disrupted academic learning"
-image_caption: "A laptop-based learning scene that fits academic disruption and shifting study routines"
+image: "/assets/images/post-scenes/library-team-scene.jpg"
+image_alt: "Students coordinating study work in a library-like setting during a disrupted academic routine"
+image_caption: "A collaborative study scene that reflects changing academic routines and campus disruption"
 image_credit: "Photo via Pexels"
 topics:
   - Online Learning

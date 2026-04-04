@@ -3,9 +3,9 @@ title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
 sequence: 10
 subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
-image: "/assets/images/post-scenes/midterm-return-class.jpg"
-image_alt: "Students back in class preparing with laptops and notes after returning to campus"
-image_caption: "A return-to-class scene that matches campus reopening and midterm preparation"
+image: "/assets/images/post-scenes/quiet-classroom-work.jpg"
+image_alt: "Students quietly working in class on laptops and notes after returning to campus"
+image_caption: "A quiet in-class work scene that fits campus reopening and midterm preparation"
 image_credit: "Photo via Pexels"
 topics:
   - Campus Reopening

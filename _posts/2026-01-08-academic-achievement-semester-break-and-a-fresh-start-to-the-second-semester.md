@@ -3,9 +3,9 @@ title: "Academic Achievement, Semester Break, and a Fresh Start to the Second Se
 layout: post
 sequence: 7
 subtitle: "Moving from final exam success into a well-earned break and a motivated second semester."
-image: "/assets/images/post-scenes/fresh-start-class.jpg"
-image_alt: "Students seated in a classroom beginning a fresh academic phase"
-image_caption: "A fresh-start classroom scene that suits academic success and the beginning of a new semester"
+image: "/assets/images/post-scenes/teacher-assisted-class.jpg"
+image_alt: "An instructor helping students on laptops in a classroom at the start of a new academic phase"
+image_caption: "A teacher-assisted classroom scene that fits a fresh start to the second semester"
 image_credit: "Photo via Pexels"
 topics:
   - GPA

@@ -3,9 +3,9 @@ title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "/assets/images/post-scenes/computer-lab.jpg"
-image_alt: "Students working in a computer lab during a practical technical class"
-image_caption: "A computer lab environment that matches database practice and MySQL implementation"
+image: "/assets/images/post-scenes/guided-computer-study.jpg"
+image_alt: "A guided computer study session where a student is learning on a desktop system"
+image_caption: "A guided computer-study setup that fits database learning and MySQL practice"
 image_credit: "Photo via Pexels"
 topics:
   - Databases
