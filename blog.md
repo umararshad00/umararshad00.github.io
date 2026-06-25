@@ -45,7 +45,7 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
   <header class="category-heading">
     <p class="eyebrow">Category</p>
     <h2>Second Semester</h2>
-    <p>Database systems, WordPress learning, online study adjustments, campus reopening, and midterm preparation.</p>
+    <p>Database systems, WordPress learning, online study adjustments, database projects, ML deployment, exhibitions, and final evaluations.</p>
   </header>
   <div class="blog-list">
     {% for post in second_semester_posts %}
