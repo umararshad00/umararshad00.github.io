@@ -2,6 +2,7 @@
 title: "Beginning of My University Journey and Learning the Academic System"
 layout: post
 sequence: 1
+blog_category: introduction
 subtitle: "A reflective start to university life, continuous assessment, and my first Python classes."
 image: "/assets/images/post-scenes/intro-classroom.jpg"
 image_alt: "Students sitting in a university classroom during an early academic session"

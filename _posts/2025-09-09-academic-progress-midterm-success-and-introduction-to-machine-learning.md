@@ -2,6 +2,7 @@
 title: "Academic Progress, Midterm Success, and Introduction to Machine Learning"
 layout: post
 sequence: 2
+blog_category: first-semester
 subtitle: "How early quiz lessons, midterm preparation, and machine learning shaped my academic confidence."
 image: "/assets/images/post-scenes/study-group.jpg"
 image_alt: "Students working seriously during a study session before academic assessments"

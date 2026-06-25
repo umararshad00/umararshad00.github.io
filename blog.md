@@ -11,37 +11,47 @@ subtitle: "Personal reflections, semester experiences, and technical learning no
 <p>This section collects my academic reflections, semester experiences, project work, and practical learning in programming, machine learning, and database systems.</p>
 
 {% assign ordered_posts = site.posts | sort: "sequence" %}
+{% assign introduction_posts = ordered_posts | where: "blog_category", "introduction" %}
+{% assign first_semester_posts = ordered_posts | where: "blog_category", "first-semester" %}
+{% assign second_semester_posts = ordered_posts | where: "blog_category", "second-semester" %}
 {% if site.posts.size > 0 %}
-<section class="blog-list">
-  {% for post in ordered_posts %}
-    <article class="post-preview">
-      {% if post.image %}
-        <a class="post-preview-media" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
-          <img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}" loading="lazy">
-        </a>
-      {% endif %}
-      <div class="post-preview-copy">
-        {% if post.sequence %}
-          <p class="post-sequence">Article {{ post.sequence }}</p>
-        {% endif %}
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        {% if post.subtitle %}
-          <p class="post-subtitle">{{ post.subtitle }}</p>
-        {% endif %}
-        {% if post.image_caption %}
-          <p class="post-media-note">{{ post.image_caption }}</p>
-        {% endif %}
-        {% if post.points %}
-          <ul class="compact-points">
-            {% for point in post.points limit: 3 %}
-              <li>{{ point }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-        <a class="text-link" href="{{ post.url | relative_url }}">Read full post</a>
-      </div>
-    </article>
-  {% endfor %}
+<section class="blog-category" id="introduction">
+  <header class="category-heading">
+    <p class="eyebrow">Category</p>
+    <h2>Introduction</h2>
+    <p>The starting point of my university journey and the first step into academic life.</p>
+  </header>
+  <div class="blog-list">
+    {% for post in introduction_posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="blog-category" id="first-semester">
+  <header class="category-heading">
+    <p class="eyebrow">Category</p>
+    <h2>First Semester</h2>
+    <p>Programming fundamentals, machine learning practice, project work, presentations, and final-week progress.</p>
+  </header>
+  <div class="blog-list">
+    {% for post in first_semester_posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="blog-category" id="second-semester">
+  <header class="category-heading">
+    <p class="eyebrow">Category</p>
+    <h2>Second Semester</h2>
+    <p>Database systems, WordPress learning, online study adjustments, campus reopening, and midterm preparation.</p>
+  </header>
+  <div class="blog-list">
+    {% for post in second_semester_posts %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
 </section>
 {% else %}
 <article class="content-card">

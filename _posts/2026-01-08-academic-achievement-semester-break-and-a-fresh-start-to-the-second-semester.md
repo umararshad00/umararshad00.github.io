@@ -2,6 +2,7 @@
 title: "Academic Achievement, Semester Break, and a Fresh Start to the Second Semester"
 layout: post
 sequence: 7
+blog_category: second-semester
 subtitle: "Moving from final exam success into a well-earned break and a motivated second semester."
 image: "/assets/images/post-scenes/teacher-assisted-class.jpg"
 image_alt: "An instructor helping students on laptops in a classroom at the start of a new academic phase"

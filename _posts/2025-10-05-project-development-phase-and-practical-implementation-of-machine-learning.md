@@ -2,6 +2,7 @@
 title: "Project Development Phase and Practical Implementation of Machine Learning"
 layout: post
 sequence: 3
+blog_category: first-semester
 subtitle: "Turning machine learning concepts into hands-on practice through models, libraries, and visualization."
 image: "/assets/images/post-scenes/project-laptops.jpg"
 image_alt: "Students using computers together while working on a practical project"

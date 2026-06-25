@@ -2,6 +2,7 @@
 title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
 sequence: 8
+blog_category: second-semester
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
 image: "/assets/images/post-scenes/guided-computer-study.jpg"
 image_alt: "A guided computer study session where a student is learning on a desktop system"

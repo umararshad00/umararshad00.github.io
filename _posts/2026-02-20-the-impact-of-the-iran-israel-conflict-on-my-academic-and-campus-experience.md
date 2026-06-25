@@ -2,6 +2,7 @@
 title: "The Impact of Iran-Israel Conflict on My Academic and Campus Experience"
 layout: post
 sequence: 9
+blog_category: second-semester
 subtitle: "Adapting my studies and campus routine during a period of regional disruption and uncertainty."
 image: "/assets/images/post-scenes/library-team-scene.jpg"
 image_alt: "Students coordinating study work in a library-like setting during a disrupted academic routine"

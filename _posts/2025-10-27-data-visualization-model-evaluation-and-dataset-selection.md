@@ -2,6 +2,7 @@
 title: "Data Visualization, Model Evaluation, and Dataset Selection"
 layout: post
 sequence: 4
+blog_category: first-semester
 subtitle: "Exploring charts, evaluation metrics, and dataset selection as part of practical machine learning work."
 image: "/assets/images/post-scenes/analysis-library.jpg"
 image_alt: "Students reviewing work and analysis material in a quiet study environment"

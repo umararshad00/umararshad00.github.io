@@ -2,6 +2,7 @@
 title: "End-to-End Machine Learning Model Development, Implementation, and Documentation"
 layout: post
 sequence: 5
+blog_category: first-semester
 subtitle: "Building a complete regression workflow from preprocessing to evaluation and documentation."
 image: "/assets/images/post-scenes/model-laptop-notes.jpg"
 image_alt: "A student working on a laptop with notes while building and documenting a technical project"
