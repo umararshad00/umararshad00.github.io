@@ -1,7 +1,7 @@
 ---
 title: "Academic Challenges After Campus Reopening and Midterm Preparation"
 layout: post
-sequence: 10
+sequence: 15
 blog_category: second-semester
 subtitle: "Returning to campus, facing compressed assessments, and adjusting to a hybrid schedule."
 image: "/assets/images/post-scenes/quiet-classroom-work.jpg"

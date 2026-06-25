@@ -1,7 +1,7 @@
 ---
 title: "Final Week Achievements, Project Exhibition, and Time Management"
 layout: post
-sequence: 6
+sequence: 11
 blog_category: first-semester
 subtitle: "Presenting my project, managing pressure, and preparing for finals in the semester's final stretch."
 image: "/assets/images/post-scenes/presentation-class.jpg"

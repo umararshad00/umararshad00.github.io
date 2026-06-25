@@ -1,13 +1,13 @@
 ---
 title: "Learning Database Management and Practical Implementation using MySQL"
 layout: post
-sequence: 8
+sequence: 13
 blog_category: second-semester
 subtitle: "Learning SQL, database design, and ER modeling through hands-on work in MySQL."
-image: "/assets/images/post-scenes/guided-computer-study.jpg"
-image_alt: "A guided computer study session where a student is learning on a desktop system"
-image_caption: "A guided computer-study setup that fits database learning and MySQL practice"
-image_credit: "Photo via Pexels"
+image: "/assets/images/universities/uet-database-wing.jpg"
+image_alt: "A Pakistani university academic building connected with engineering and database studies"
+image_caption: "A Pakistani university setting that fits Database Systems and MySQL learning"
+image_credit: "Photo via Wikimedia Commons"
 topics:
   - Databases
   - MySQL
